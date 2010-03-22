@@ -634,3 +634,2487 @@ Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/__init__.py", line 207, in call_subprocess
     % (command_desc, proc.returncode))
 InstallationError: Command /Library/Frameworks/Python.framework/Versions/2.6/Resources/Python.app/Contents/MacOS/Python -c "import setuptools; __file__='/Users/matth/Projects/D-ACIS/parcelsurvey/src/django/setup.py'; execfile('/Users/matth/Projects/D-ACIS/parcelsurvey/src/django/setup.py')" develop --no-deps failed with error code 1
+------------------------------------------------------------
+/Library/Frameworks/Python.framework/Versions/2.6/bin/pip run on Mon Mar 22 11:54:21 2010
+Requirement already satisfied (use --upgrade to upgrade): django-debug-toolbar in /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages (from -r requirements.txt (line 4))
+Requirement already satisfied (use --upgrade to upgrade): psycopg2 in /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages (from -r requirements.txt (line 5))
+Downloading/unpacking Django==1.1 (from -r requirements.txt (line 2))
+  Getting page http://pypi.python.org/simple/Django
+  URLs to search for versions for Django==1.1 (from -r requirements.txt (line 2)):
+  * http://pypi.python.org/simple/Django/1.1
+  * http://pypi.python.org/simple/Django/
+  Getting page http://pypi.python.org/simple/Django/1.1
+  Getting page http://www.djangoproject.com/
+  Could not fetch URL http://pypi.python.org/simple/Django/1.1: HTTP Error 404: Not Found
+  Will skip URL http://pypi.python.org/simple/Django/1.1 when looking for download links for Django==1.1 (from -r requirements.txt (line 2))
+  Skipping page http://media.djangoproject.com/releases/1.0.3/Django-1.0.3.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.1/Django-1.1.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.1.1/Django-1.1.1.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.0.1/Django-1.0.1-final.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Getting page http://www.djangoproject.com/download/1.0.1-beta-1/tarball/
+  Skipping page http://media.djangoproject.com/releases/1.0.2/Django-1.0.2-final.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Skipping page http://media.djangoproject.com/releases/1.0.4/Django-1.0.4.tar.gz (from http://pypi.python.org/simple/Django/) because of Content-Type: application/octet-stream
+  Analyzing links from page http://pypi.python.org/simple/Django/
+    Found link http://pypi.python.org/packages/source/D/Django/Django-1.1.1.tar.gz#md5=d7839c192e115f9c4dd8777de24dc21c (from http://pypi.python.org/simple/Django/), version: 1.1.1
+    Found link http://pypi.python.org/packages/source/D/Django/Django-1.1.tar.gz#md5=b2d75b4457a39c405fa2b36bf826bf6b (from http://pypi.python.org/simple/Django/), version: 1.1
+    Found link http://pypi.python.org/packages/source/D/Django/Django-1.0.3.tar.gz#md5=3c5435b015d8cde602b17a5f0c9873dc (from http://pypi.python.org/simple/Django/), version: 1.0.3
+    Found link http://pypi.python.org/packages/source/D/Django/Django-1.0.4.tar.gz#md5=ad1d5eb37ba5b6ec9b7f8ce6af1b5562 (from http://pypi.python.org/simple/Django/), version: 1.0.4
+    Found link http://pypi.python.org/packages/source/D/Django/Django-1.0.1-final.tar.gz#md5=441efb2f6609ac8f4fab651d4eb0c091 (from http://pypi.python.org/simple/Django/), version: 1.0.1-final
+    Found link http://pypi.python.org/packages/source/D/Django/Django-1.0.2-final.tar.gz#md5=89353e3749668778f1370d2e444f3adc (from http://pypi.python.org/simple/Django/), version: 1.0.2-final
+    Found link http://pypi.python.org/packages/source/D/Django/Django-1.0.1%20beta%201.tar.gz#md5=af2b47bbc4149bb07e03935e7ff2353e (from http://pypi.python.org/simple/Django/), version: 1.0.1
+    Skipping link http://www.djangoproject.com/ (from http://pypi.python.org/simple/Django/); not a file
+    Found link http://media.djangoproject.com/releases/1.0.3/Django-1.0.3.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.0.3
+    Found link http://media.djangoproject.com/releases/1.1/Django-1.1.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.1
+    Found link http://media.djangoproject.com/releases/1.1.1/Django-1.1.1.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.1.1
+    Found link http://media.djangoproject.com/releases/1.0.1/Django-1.0.1-final.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.0.1-final
+    Found link http://media.djangoproject.com/releases/1.0.2/Django-1.0.2-final.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.0.2-final
+    Skipping link http://www.djangoproject.com/download/1.0.1-beta-1/tarball/ (from http://pypi.python.org/simple/Django/); not a file
+    Found link http://media.djangoproject.com/releases/1.0.4/Django-1.0.4.tar.gz (from http://pypi.python.org/simple/Django/), version: 1.0.4
+  Analyzing links from page http://www.djangoproject.com/
+    Skipping link http://media.djangoproject.com/css/homepage.css (from http://www.djangoproject.com/); unknown archive format: .css
+    Skipping link http://media.djangoproject.com/css/print.css (from http://www.djangoproject.com/); unknown archive format: .css
+    Skipping link http://www.djangoproject.com/download/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.djangoproject.com/weblog/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.djangoproject.com/community/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://code.djangoproject.com/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://c2.com/cgi/wiki?DontRepeatYourself (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/intro/overview/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/intro/install/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/intro/tutorial01/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/topics/db/models/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/topics/db/queries/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/intro/tutorial02/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/topics/http/urls/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/topics/templates/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/topics/cache/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://docs.djangoproject.com/en/dev/topics/i18n/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://code.djangoproject.com/browser/django/trunk/LICENSE (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.lawrence.com/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://projects.washingtonpost.com/congress/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.everyblock.com/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.ljworld.com/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.tabblo.com/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.torontolife.com/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://code.djangoproject.com/wiki/DjangoPoweredSites (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.djangoproject.com/weblog/2010/mar/16/django-1_2-release-schedule-update-1/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.djangoproject.com/weblog/2010/mar/09/django-1_2-release-schedule/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.djangoproject.com/weblog/2010/feb/06/12-beta-1/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.djangoproject.com/weblog/2010/jan/06/12-alpha-1/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://www.djangoproject.com/foundation/ (from http://www.djangoproject.com/); not a file
+    Skipping link http://mediatemple.net/ (from http://www.djangoproject.com/); not a file
+  Analyzing links from page http://media.djangoproject.com/releases/1.0.1/Django-1.0.1_beta_1.tar.gz
+  Ignoring link http://pypi.python.org/packages/source/D/Django/Django-1.1.1.tar.gz#md5=d7839c192e115f9c4dd8777de24dc21c (from http://pypi.python.org/simple/Django/), version 1.1.1 doesn't match ==1.1
+  Ignoring link http://pypi.python.org/packages/source/D/Django/Django-1.0.3.tar.gz#md5=3c5435b015d8cde602b17a5f0c9873dc (from http://pypi.python.org/simple/Django/), version 1.0.3 doesn't match ==1.1
+  Ignoring link http://pypi.python.org/packages/source/D/Django/Django-1.0.4.tar.gz#md5=ad1d5eb37ba5b6ec9b7f8ce6af1b5562 (from http://pypi.python.org/simple/Django/), version 1.0.4 doesn't match ==1.1
+  Ignoring link http://pypi.python.org/packages/source/D/Django/Django-1.0.1-final.tar.gz#md5=441efb2f6609ac8f4fab651d4eb0c091 (from http://pypi.python.org/simple/Django/), version 1.0.1-final doesn't match ==1.1
+  Ignoring link http://pypi.python.org/packages/source/D/Django/Django-1.0.2-final.tar.gz#md5=89353e3749668778f1370d2e444f3adc (from http://pypi.python.org/simple/Django/), version 1.0.2-final doesn't match ==1.1
+  Ignoring link http://pypi.python.org/packages/source/D/Django/Django-1.0.1%20beta%201.tar.gz#md5=af2b47bbc4149bb07e03935e7ff2353e (from http://pypi.python.org/simple/Django/), version 1.0.1 doesn't match ==1.1
+  Ignoring link http://media.djangoproject.com/releases/1.0.3/Django-1.0.3.tar.gz (from http://pypi.python.org/simple/Django/), version 1.0.3 doesn't match ==1.1
+  Ignoring link http://media.djangoproject.com/releases/1.1.1/Django-1.1.1.tar.gz (from http://pypi.python.org/simple/Django/), version 1.1.1 doesn't match ==1.1
+  Ignoring link http://media.djangoproject.com/releases/1.0.1/Django-1.0.1-final.tar.gz (from http://pypi.python.org/simple/Django/), version 1.0.1-final doesn't match ==1.1
+  Ignoring link http://media.djangoproject.com/releases/1.0.2/Django-1.0.2-final.tar.gz (from http://pypi.python.org/simple/Django/), version 1.0.2-final doesn't match ==1.1
+  Ignoring link http://media.djangoproject.com/releases/1.0.4/Django-1.0.4.tar.gz (from http://pypi.python.org/simple/Django/), version 1.0.4 doesn't match ==1.1
+  Using version 1.1 (newest of versions: 1.1, 1.1)
+  Downloading from URL http://pypi.python.org/packages/source/D/Django/Django-1.1.tar.gz#md5=b2d75b4457a39c405fa2b36bf826bf6b (from http://pypi.python.org/simple/Django/)
+  Running setup.py egg_info for package Django
+    running egg_info
+    creating pip-egg-info/Django.egg-info
+    writing pip-egg-info/Django.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/Django.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/Django.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/Django.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    reading manifest file 'pip-egg-info/Django.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/Django.egg-info/SOURCES.txt'
+  Source in ./build/Django has version 1.1, which satisfies requirement Django==1.1 (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): python-memcached in /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages (from -r requirements.txt (line 6))
+Obtaining geopy from svn+http://geopy.googlecode.com/svn/tags/release-0.93#egg=geopy (from -r requirements.txt (line 3))
+  Checking out http://geopy.googlecode.com/svn/tags/release-0.93 to ./src/geopy
+  Running command svn checkout -q http://geopy.googlecode.com/svn/tags/release-0.93 /Users/matth/Projects/D-ACIS/parcelsurvey/src/geopy
+  Running setup.py egg_info for package geopy
+    running egg_info
+    writing geopy.egg-info/PKG-INFO
+    writing top-level names to geopy.egg-info/top_level.txt
+    writing dependency_links to geopy.egg-info/dependency_links.txt
+    warning: manifest_maker: standard file '-c' not found
+    unrecognized .svn/entries format in
+    reading manifest file 'geopy.egg-info/SOURCES.txt'
+    writing manifest file 'geopy.egg-info/SOURCES.txt'
+Requirement already satisfied (use --upgrade to upgrade): fabric==0.9.0 in /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/Fabric-0.9.0-py2.6.egg (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): pycrypto>=1.9 in /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.3-fat.egg (from fabric==0.9.0->-r requirements.txt (line 1))
+Installing collected packages: Django, geopy
+  Found existing installation: Django 1.0.2-final
+    Uninstalling Django:
+      Removing file or directory /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/Django-1.0.2_final-py2.6.egg-info
+      Successfully uninstalled Django
+  Running setup.py install for Django
+    Running command /Library/Frameworks/Python.framework/Versions/2.6/Resources/Python.app/Contents/MacOS/Python -c "import setuptools; __file__='/Users/matth/Projects/D-ACIS/parcelsurvey/build/Django/setup.py'; execfile('/Users/matth/Projects/D-ACIS/parcelsurvey/build/Django/setup.py')" install --single-version-externally-managed --record /var/folders/GZ/GZPEKy8PGHy8vKM+uMFEVk+++TI/-Tmp-/pip-gdVc7G-record/install-record.txt --install-headers /Users/matth/Projects/D-ACIS/parcelsurvey/lib/include
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/django
+    copying django/__init__.py -> build/lib/django
+    creating build/lib/django/bin
+    copying django/bin/__init__.py -> build/lib/django/bin
+    copying django/bin/compile-messages.py -> build/lib/django/bin
+    copying django/bin/daily_cleanup.py -> build/lib/django/bin
+    copying django/bin/django-admin.py -> build/lib/django/bin
+    copying django/bin/make-messages.py -> build/lib/django/bin
+    copying django/bin/unique-messages.py -> build/lib/django/bin
+    creating build/lib/django/bin/profiling
+    copying django/bin/profiling/__init__.py -> build/lib/django/bin/profiling
+    copying django/bin/profiling/gather_profile_stats.py -> build/lib/django/bin/profiling
+    creating build/lib/django/conf
+    copying django/conf/__init__.py -> build/lib/django/conf
+    copying django/conf/global_settings.py -> build/lib/django/conf
+    creating build/lib/django/conf/app_template
+    copying django/conf/app_template/__init__.py -> build/lib/django/conf/app_template
+    copying django/conf/app_template/models.py -> build/lib/django/conf/app_template
+    copying django/conf/app_template/tests.py -> build/lib/django/conf/app_template
+    copying django/conf/app_template/views.py -> build/lib/django/conf/app_template
+    creating build/lib/django/conf/project_template
+    copying django/conf/project_template/__init__.py -> build/lib/django/conf/project_template
+    copying django/conf/project_template/manage.py -> build/lib/django/conf/project_template
+    copying django/conf/project_template/settings.py -> build/lib/django/conf/project_template
+    copying django/conf/project_template/urls.py -> build/lib/django/conf/project_template
+    creating build/lib/django/conf/urls
+    copying django/conf/urls/__init__.py -> build/lib/django/conf/urls
+    copying django/conf/urls/defaults.py -> build/lib/django/conf/urls
+    copying django/conf/urls/i18n.py -> build/lib/django/conf/urls
+    copying django/conf/urls/shortcut.py -> build/lib/django/conf/urls
+    creating build/lib/django/contrib
+    copying django/contrib/__init__.py -> build/lib/django/contrib
+    creating build/lib/django/contrib/admin
+    copying django/contrib/admin/__init__.py -> build/lib/django/contrib/admin
+    copying django/contrib/admin/actions.py -> build/lib/django/contrib/admin
+    copying django/contrib/admin/filterspecs.py -> build/lib/django/contrib/admin
+    copying django/contrib/admin/helpers.py -> build/lib/django/contrib/admin
+    copying django/contrib/admin/models.py -> build/lib/django/contrib/admin
+    copying django/contrib/admin/options.py -> build/lib/django/contrib/admin
+    copying django/contrib/admin/sites.py -> build/lib/django/contrib/admin
+    copying django/contrib/admin/util.py -> build/lib/django/contrib/admin
+    copying django/contrib/admin/validation.py -> build/lib/django/contrib/admin
+    copying django/contrib/admin/widgets.py -> build/lib/django/contrib/admin
+    creating build/lib/django/contrib/admin/templatetags
+    copying django/contrib/admin/templatetags/__init__.py -> build/lib/django/contrib/admin/templatetags
+    copying django/contrib/admin/templatetags/admin_list.py -> build/lib/django/contrib/admin/templatetags
+    copying django/contrib/admin/templatetags/admin_modify.py -> build/lib/django/contrib/admin/templatetags
+    copying django/contrib/admin/templatetags/adminmedia.py -> build/lib/django/contrib/admin/templatetags
+    copying django/contrib/admin/templatetags/log.py -> build/lib/django/contrib/admin/templatetags
+    creating build/lib/django/contrib/admin/views
+    copying django/contrib/admin/views/__init__.py -> build/lib/django/contrib/admin/views
+    copying django/contrib/admin/views/decorators.py -> build/lib/django/contrib/admin/views
+    copying django/contrib/admin/views/main.py -> build/lib/django/contrib/admin/views
+    copying django/contrib/admin/views/template.py -> build/lib/django/contrib/admin/views
+    creating build/lib/django/contrib/admindocs
+    copying django/contrib/admindocs/__init__.py -> build/lib/django/contrib/admindocs
+    copying django/contrib/admindocs/urls.py -> build/lib/django/contrib/admindocs
+    copying django/contrib/admindocs/utils.py -> build/lib/django/contrib/admindocs
+    copying django/contrib/admindocs/views.py -> build/lib/django/contrib/admindocs
+    creating build/lib/django/contrib/auth
+    copying django/contrib/auth/__init__.py -> build/lib/django/contrib/auth
+    copying django/contrib/auth/admin.py -> build/lib/django/contrib/auth
+    copying django/contrib/auth/backends.py -> build/lib/django/contrib/auth
+    copying django/contrib/auth/create_superuser.py -> build/lib/django/contrib/auth
+    copying django/contrib/auth/decorators.py -> build/lib/django/contrib/auth
+    copying django/contrib/auth/forms.py -> build/lib/django/contrib/auth
+    copying django/contrib/auth/middleware.py -> build/lib/django/contrib/auth
+    copying django/contrib/auth/models.py -> build/lib/django/contrib/auth
+    copying django/contrib/auth/tokens.py -> build/lib/django/contrib/auth
+    copying django/contrib/auth/urls.py -> build/lib/django/contrib/auth
+    copying django/contrib/auth/views.py -> build/lib/django/contrib/auth
+    creating build/lib/django/contrib/auth/handlers
+    copying django/contrib/auth/handlers/__init__.py -> build/lib/django/contrib/auth/handlers
+    copying django/contrib/auth/handlers/modpython.py -> build/lib/django/contrib/auth/handlers
+    creating build/lib/django/contrib/auth/management
+    copying django/contrib/auth/management/__init__.py -> build/lib/django/contrib/auth/management
+    creating build/lib/django/contrib/auth/management/commands
+    copying django/contrib/auth/management/commands/__init__.py -> build/lib/django/contrib/auth/management/commands
+    copying django/contrib/auth/management/commands/createsuperuser.py -> build/lib/django/contrib/auth/management/commands
+    creating build/lib/django/contrib/auth/tests
+    copying django/contrib/auth/tests/__init__.py -> build/lib/django/contrib/auth/tests
+    copying django/contrib/auth/tests/basic.py -> build/lib/django/contrib/auth/tests
+    copying django/contrib/auth/tests/forms.py -> build/lib/django/contrib/auth/tests
+    copying django/contrib/auth/tests/remote_user.py -> build/lib/django/contrib/auth/tests
+    copying django/contrib/auth/tests/tokens.py -> build/lib/django/contrib/auth/tests
+    copying django/contrib/auth/tests/urls.py -> build/lib/django/contrib/auth/tests
+    copying django/contrib/auth/tests/views.py -> build/lib/django/contrib/auth/tests
+    creating build/lib/django/contrib/comments
+    copying django/contrib/comments/__init__.py -> build/lib/django/contrib/comments
+    copying django/contrib/comments/admin.py -> build/lib/django/contrib/comments
+    copying django/contrib/comments/feeds.py -> build/lib/django/contrib/comments
+    copying django/contrib/comments/forms.py -> build/lib/django/contrib/comments
+    copying django/contrib/comments/managers.py -> build/lib/django/contrib/comments
+    copying django/contrib/comments/models.py -> build/lib/django/contrib/comments
+    copying django/contrib/comments/moderation.py -> build/lib/django/contrib/comments
+    copying django/contrib/comments/signals.py -> build/lib/django/contrib/comments
+    copying django/contrib/comments/urls.py -> build/lib/django/contrib/comments
+    creating build/lib/django/contrib/comments/templatetags
+    copying django/contrib/comments/templatetags/__init__.py -> build/lib/django/contrib/comments/templatetags
+    copying django/contrib/comments/templatetags/comments.py -> build/lib/django/contrib/comments/templatetags
+    creating build/lib/django/contrib/comments/views
+    copying django/contrib/comments/views/__init__.py -> build/lib/django/contrib/comments/views
+    copying django/contrib/comments/views/comments.py -> build/lib/django/contrib/comments/views
+    copying django/contrib/comments/views/moderation.py -> build/lib/django/contrib/comments/views
+    copying django/contrib/comments/views/utils.py -> build/lib/django/contrib/comments/views
+    creating build/lib/django/contrib/contenttypes
+    copying django/contrib/contenttypes/__init__.py -> build/lib/django/contrib/contenttypes
+    copying django/contrib/contenttypes/generic.py -> build/lib/django/contrib/contenttypes
+    copying django/contrib/contenttypes/management.py -> build/lib/django/contrib/contenttypes
+    copying django/contrib/contenttypes/models.py -> build/lib/django/contrib/contenttypes
+    copying django/contrib/contenttypes/tests.py -> build/lib/django/contrib/contenttypes
+    copying django/contrib/contenttypes/views.py -> build/lib/django/contrib/contenttypes
+    creating build/lib/django/contrib/csrf
+    copying django/contrib/csrf/__init__.py -> build/lib/django/contrib/csrf
+    copying django/contrib/csrf/middleware.py -> build/lib/django/contrib/csrf
+    copying django/contrib/csrf/models.py -> build/lib/django/contrib/csrf
+    copying django/contrib/csrf/tests.py -> build/lib/django/contrib/csrf
+    creating build/lib/django/contrib/databrowse
+    copying django/contrib/databrowse/__init__.py -> build/lib/django/contrib/databrowse
+    copying django/contrib/databrowse/datastructures.py -> build/lib/django/contrib/databrowse
+    copying django/contrib/databrowse/sites.py -> build/lib/django/contrib/databrowse
+    copying django/contrib/databrowse/urls.py -> build/lib/django/contrib/databrowse
+    copying django/contrib/databrowse/views.py -> build/lib/django/contrib/databrowse
+    creating build/lib/django/contrib/databrowse/plugins
+    copying django/contrib/databrowse/plugins/__init__.py -> build/lib/django/contrib/databrowse/plugins
+    copying django/contrib/databrowse/plugins/calendars.py -> build/lib/django/contrib/databrowse/plugins
+    copying django/contrib/databrowse/plugins/fieldchoices.py -> build/lib/django/contrib/databrowse/plugins
+    copying django/contrib/databrowse/plugins/objects.py -> build/lib/django/contrib/databrowse/plugins
+    creating build/lib/django/contrib/flatpages
+    copying django/contrib/flatpages/__init__.py -> build/lib/django/contrib/flatpages
+    copying django/contrib/flatpages/admin.py -> build/lib/django/contrib/flatpages
+    copying django/contrib/flatpages/middleware.py -> build/lib/django/contrib/flatpages
+    copying django/contrib/flatpages/models.py -> build/lib/django/contrib/flatpages
+    copying django/contrib/flatpages/urls.py -> build/lib/django/contrib/flatpages
+    copying django/contrib/flatpages/views.py -> build/lib/django/contrib/flatpages
+    creating build/lib/django/contrib/formtools
+    copying django/contrib/formtools/__init__.py -> build/lib/django/contrib/formtools
+    copying django/contrib/formtools/models.py -> build/lib/django/contrib/formtools
+    copying django/contrib/formtools/preview.py -> build/lib/django/contrib/formtools
+    copying django/contrib/formtools/test_urls.py -> build/lib/django/contrib/formtools
+    copying django/contrib/formtools/tests.py -> build/lib/django/contrib/formtools
+    copying django/contrib/formtools/utils.py -> build/lib/django/contrib/formtools
+    copying django/contrib/formtools/wizard.py -> build/lib/django/contrib/formtools
+    creating build/lib/django/contrib/gis
+    copying django/contrib/gis/__init__.py -> build/lib/django/contrib/gis
+    copying django/contrib/gis/feeds.py -> build/lib/django/contrib/gis
+    copying django/contrib/gis/measure.py -> build/lib/django/contrib/gis
+    copying django/contrib/gis/models.py -> build/lib/django/contrib/gis
+    copying django/contrib/gis/shortcuts.py -> build/lib/django/contrib/gis
+    creating build/lib/django/contrib/gis/admin
+    copying django/contrib/gis/admin/__init__.py -> build/lib/django/contrib/gis/admin
+    copying django/contrib/gis/admin/options.py -> build/lib/django/contrib/gis/admin
+    copying django/contrib/gis/admin/widgets.py -> build/lib/django/contrib/gis/admin
+    creating build/lib/django/contrib/gis/db
+    copying django/contrib/gis/db/__init__.py -> build/lib/django/contrib/gis/db
+    creating build/lib/django/contrib/gis/db/backend
+    copying django/contrib/gis/db/backend/__init__.py -> build/lib/django/contrib/gis/db/backend
+    copying django/contrib/gis/db/backend/adaptor.py -> build/lib/django/contrib/gis/db/backend
+    copying django/contrib/gis/db/backend/base.py -> build/lib/django/contrib/gis/db/backend
+    copying django/contrib/gis/db/backend/util.py -> build/lib/django/contrib/gis/db/backend
+    creating build/lib/django/contrib/gis/db/backend/mysql
+    copying django/contrib/gis/db/backend/mysql/__init__.py -> build/lib/django/contrib/gis/db/backend/mysql
+    copying django/contrib/gis/db/backend/mysql/creation.py -> build/lib/django/contrib/gis/db/backend/mysql
+    copying django/contrib/gis/db/backend/mysql/field.py -> build/lib/django/contrib/gis/db/backend/mysql
+    copying django/contrib/gis/db/backend/mysql/query.py -> build/lib/django/contrib/gis/db/backend/mysql
+    creating build/lib/django/contrib/gis/db/backend/oracle
+    copying django/contrib/gis/db/backend/oracle/__init__.py -> build/lib/django/contrib/gis/db/backend/oracle
+    copying django/contrib/gis/db/backend/oracle/adaptor.py -> build/lib/django/contrib/gis/db/backend/oracle
+    copying django/contrib/gis/db/backend/oracle/creation.py -> build/lib/django/contrib/gis/db/backend/oracle
+    copying django/contrib/gis/db/backend/oracle/field.py -> build/lib/django/contrib/gis/db/backend/oracle
+    copying django/contrib/gis/db/backend/oracle/models.py -> build/lib/django/contrib/gis/db/backend/oracle
+    copying django/contrib/gis/db/backend/oracle/query.py -> build/lib/django/contrib/gis/db/backend/oracle
+    creating build/lib/django/contrib/gis/db/backend/postgis
+    copying django/contrib/gis/db/backend/postgis/__init__.py -> build/lib/django/contrib/gis/db/backend/postgis
+    copying django/contrib/gis/db/backend/postgis/adaptor.py -> build/lib/django/contrib/gis/db/backend/postgis
+    copying django/contrib/gis/db/backend/postgis/creation.py -> build/lib/django/contrib/gis/db/backend/postgis
+    copying django/contrib/gis/db/backend/postgis/field.py -> build/lib/django/contrib/gis/db/backend/postgis
+    copying django/contrib/gis/db/backend/postgis/management.py -> build/lib/django/contrib/gis/db/backend/postgis
+    copying django/contrib/gis/db/backend/postgis/models.py -> build/lib/django/contrib/gis/db/backend/postgis
+    copying django/contrib/gis/db/backend/postgis/query.py -> build/lib/django/contrib/gis/db/backend/postgis
+    creating build/lib/django/contrib/gis/db/backend/spatialite
+    copying django/contrib/gis/db/backend/spatialite/__init__.py -> build/lib/django/contrib/gis/db/backend/spatialite
+    copying django/contrib/gis/db/backend/spatialite/adaptor.py -> build/lib/django/contrib/gis/db/backend/spatialite
+    copying django/contrib/gis/db/backend/spatialite/creation.py -> build/lib/django/contrib/gis/db/backend/spatialite
+    copying django/contrib/gis/db/backend/spatialite/field.py -> build/lib/django/contrib/gis/db/backend/spatialite
+    copying django/contrib/gis/db/backend/spatialite/models.py -> build/lib/django/contrib/gis/db/backend/spatialite
+    copying django/contrib/gis/db/backend/spatialite/query.py -> build/lib/django/contrib/gis/db/backend/spatialite
+    creating build/lib/django/contrib/gis/db/models
+    copying django/contrib/gis/db/models/__init__.py -> build/lib/django/contrib/gis/db/models
+    copying django/contrib/gis/db/models/aggregates.py -> build/lib/django/contrib/gis/db/models
+    copying django/contrib/gis/db/models/manager.py -> build/lib/django/contrib/gis/db/models
+    copying django/contrib/gis/db/models/proxy.py -> build/lib/django/contrib/gis/db/models
+    copying django/contrib/gis/db/models/query.py -> build/lib/django/contrib/gis/db/models
+    creating build/lib/django/contrib/gis/db/models/fields
+    copying django/contrib/gis/db/models/fields/__init__.py -> build/lib/django/contrib/gis/db/models/fields
+    creating build/lib/django/contrib/gis/db/models/sql
+    copying django/contrib/gis/db/models/sql/__init__.py -> build/lib/django/contrib/gis/db/models/sql
+    copying django/contrib/gis/db/models/sql/aggregates.py -> build/lib/django/contrib/gis/db/models/sql
+    copying django/contrib/gis/db/models/sql/conversion.py -> build/lib/django/contrib/gis/db/models/sql
+    copying django/contrib/gis/db/models/sql/query.py -> build/lib/django/contrib/gis/db/models/sql
+    copying django/contrib/gis/db/models/sql/subqueries.py -> build/lib/django/contrib/gis/db/models/sql
+    copying django/contrib/gis/db/models/sql/where.py -> build/lib/django/contrib/gis/db/models/sql
+    creating build/lib/django/contrib/gis/forms
+    copying django/contrib/gis/forms/__init__.py -> build/lib/django/contrib/gis/forms
+    copying django/contrib/gis/forms/fields.py -> build/lib/django/contrib/gis/forms
+    creating build/lib/django/contrib/gis/gdal
+    copying django/contrib/gis/gdal/__init__.py -> build/lib/django/contrib/gis/gdal
+    copying django/contrib/gis/gdal/base.py -> build/lib/django/contrib/gis/gdal
+    copying django/contrib/gis/gdal/datasource.py -> build/lib/django/contrib/gis/gdal
+    copying django/contrib/gis/gdal/driver.py -> build/lib/django/contrib/gis/gdal
+    copying django/contrib/gis/gdal/envelope.py -> build/lib/django/contrib/gis/gdal
+    copying django/contrib/gis/gdal/error.py -> build/lib/django/contrib/gis/gdal
+    copying django/contrib/gis/gdal/feature.py -> build/lib/django/contrib/gis/gdal
+    copying django/contrib/gis/gdal/field.py -> build/lib/django/contrib/gis/gdal
+    copying django/contrib/gis/gdal/geometries.py -> build/lib/django/contrib/gis/gdal
+    copying django/contrib/gis/gdal/geomtype.py -> build/lib/django/contrib/gis/gdal
+    copying django/contrib/gis/gdal/layer.py -> build/lib/django/contrib/gis/gdal
+    copying django/contrib/gis/gdal/libgdal.py -> build/lib/django/contrib/gis/gdal
+    copying django/contrib/gis/gdal/srs.py -> build/lib/django/contrib/gis/gdal
+    creating build/lib/django/contrib/gis/gdal/prototypes
+    copying django/contrib/gis/gdal/prototypes/__init__.py -> build/lib/django/contrib/gis/gdal/prototypes
+    copying django/contrib/gis/gdal/prototypes/ds.py -> build/lib/django/contrib/gis/gdal/prototypes
+    copying django/contrib/gis/gdal/prototypes/errcheck.py -> build/lib/django/contrib/gis/gdal/prototypes
+    copying django/contrib/gis/gdal/prototypes/generation.py -> build/lib/django/contrib/gis/gdal/prototypes
+    copying django/contrib/gis/gdal/prototypes/geom.py -> build/lib/django/contrib/gis/gdal/prototypes
+    copying django/contrib/gis/gdal/prototypes/srs.py -> build/lib/django/contrib/gis/gdal/prototypes
+    creating build/lib/django/contrib/gis/gdal/tests
+    copying django/contrib/gis/gdal/tests/__init__.py -> build/lib/django/contrib/gis/gdal/tests
+    copying django/contrib/gis/gdal/tests/test_driver.py -> build/lib/django/contrib/gis/gdal/tests
+    copying django/contrib/gis/gdal/tests/test_ds.py -> build/lib/django/contrib/gis/gdal/tests
+    copying django/contrib/gis/gdal/tests/test_envelope.py -> build/lib/django/contrib/gis/gdal/tests
+    copying django/contrib/gis/gdal/tests/test_geom.py -> build/lib/django/contrib/gis/gdal/tests
+    copying django/contrib/gis/gdal/tests/test_srs.py -> build/lib/django/contrib/gis/gdal/tests
+    creating build/lib/django/contrib/gis/geos
+    copying django/contrib/gis/geos/__init__.py -> build/lib/django/contrib/gis/geos
+    copying django/contrib/gis/geos/base.py -> build/lib/django/contrib/gis/geos
+    copying django/contrib/gis/geos/collections.py -> build/lib/django/contrib/gis/geos
+    copying django/contrib/gis/geos/coordseq.py -> build/lib/django/contrib/gis/geos
+    copying django/contrib/gis/geos/error.py -> build/lib/django/contrib/gis/geos
+    copying django/contrib/gis/geos/factory.py -> build/lib/django/contrib/gis/geos
+    copying django/contrib/gis/geos/geometry.py -> build/lib/django/contrib/gis/geos
+    copying django/contrib/gis/geos/io.py -> build/lib/django/contrib/gis/geos
+    copying django/contrib/gis/geos/libgeos.py -> build/lib/django/contrib/gis/geos
+    copying django/contrib/gis/geos/linestring.py -> build/lib/django/contrib/gis/geos
+    copying django/contrib/gis/geos/mutable_list.py -> build/lib/django/contrib/gis/geos
+    copying django/contrib/gis/geos/point.py -> build/lib/django/contrib/gis/geos
+    copying django/contrib/gis/geos/polygon.py -> build/lib/django/contrib/gis/geos
+    copying django/contrib/gis/geos/prepared.py -> build/lib/django/contrib/gis/geos
+    creating build/lib/django/contrib/gis/geos/prototypes
+    copying django/contrib/gis/geos/prototypes/__init__.py -> build/lib/django/contrib/gis/geos/prototypes
+    copying django/contrib/gis/geos/prototypes/coordseq.py -> build/lib/django/contrib/gis/geos/prototypes
+    copying django/contrib/gis/geos/prototypes/errcheck.py -> build/lib/django/contrib/gis/geos/prototypes
+    copying django/contrib/gis/geos/prototypes/geom.py -> build/lib/django/contrib/gis/geos/prototypes
+    copying django/contrib/gis/geos/prototypes/io.py -> build/lib/django/contrib/gis/geos/prototypes
+    copying django/contrib/gis/geos/prototypes/misc.py -> build/lib/django/contrib/gis/geos/prototypes
+    copying django/contrib/gis/geos/prototypes/predicates.py -> build/lib/django/contrib/gis/geos/prototypes
+    copying django/contrib/gis/geos/prototypes/prepared.py -> build/lib/django/contrib/gis/geos/prototypes
+    copying django/contrib/gis/geos/prototypes/topology.py -> build/lib/django/contrib/gis/geos/prototypes
+    creating build/lib/django/contrib/gis/geos/tests
+    copying django/contrib/gis/geos/tests/__init__.py -> build/lib/django/contrib/gis/geos/tests
+    copying django/contrib/gis/geos/tests/test_geos.py -> build/lib/django/contrib/gis/geos/tests
+    copying django/contrib/gis/geos/tests/test_geos_mutation.py -> build/lib/django/contrib/gis/geos/tests
+    copying django/contrib/gis/geos/tests/test_io.py -> build/lib/django/contrib/gis/geos/tests
+    copying django/contrib/gis/geos/tests/test_mutable_list.py -> build/lib/django/contrib/gis/geos/tests
+    creating build/lib/django/contrib/gis/management
+    copying django/contrib/gis/management/__init__.py -> build/lib/django/contrib/gis/management
+    copying django/contrib/gis/management/base.py -> build/lib/django/contrib/gis/management
+    creating build/lib/django/contrib/gis/management/commands
+    copying django/contrib/gis/management/commands/__init__.py -> build/lib/django/contrib/gis/management/commands
+    copying django/contrib/gis/management/commands/inspectdb.py -> build/lib/django/contrib/gis/management/commands
+    copying django/contrib/gis/management/commands/ogrinspect.py -> build/lib/django/contrib/gis/management/commands
+    creating build/lib/django/contrib/gis/maps
+    copying django/contrib/gis/maps/__init__.py -> build/lib/django/contrib/gis/maps
+    creating build/lib/django/contrib/gis/maps/google
+    copying django/contrib/gis/maps/google/__init__.py -> build/lib/django/contrib/gis/maps/google
+    copying django/contrib/gis/maps/google/gmap.py -> build/lib/django/contrib/gis/maps/google
+    copying django/contrib/gis/maps/google/overlays.py -> build/lib/django/contrib/gis/maps/google
+    copying django/contrib/gis/maps/google/zoom.py -> build/lib/django/contrib/gis/maps/google
+    creating build/lib/django/contrib/gis/maps/openlayers
+    copying django/contrib/gis/maps/openlayers/__init__.py -> build/lib/django/contrib/gis/maps/openlayers
+    creating build/lib/django/contrib/gis/sitemaps
+    copying django/contrib/gis/sitemaps/__init__.py -> build/lib/django/contrib/gis/sitemaps
+    copying django/contrib/gis/sitemaps/georss.py -> build/lib/django/contrib/gis/sitemaps
+    copying django/contrib/gis/sitemaps/kml.py -> build/lib/django/contrib/gis/sitemaps
+    copying django/contrib/gis/sitemaps/views.py -> build/lib/django/contrib/gis/sitemaps
+    creating build/lib/django/contrib/gis/tests
+    copying django/contrib/gis/tests/__init__.py -> build/lib/django/contrib/gis/tests
+    copying django/contrib/gis/tests/geometries.py -> build/lib/django/contrib/gis/tests
+    copying django/contrib/gis/tests/test_geoforms.py -> build/lib/django/contrib/gis/tests
+    copying django/contrib/gis/tests/test_geoip.py -> build/lib/django/contrib/gis/tests
+    copying django/contrib/gis/tests/test_measure.py -> build/lib/django/contrib/gis/tests
+    copying django/contrib/gis/tests/test_spatialrefsys.py -> build/lib/django/contrib/gis/tests
+    copying django/contrib/gis/tests/urls.py -> build/lib/django/contrib/gis/tests
+    copying django/contrib/gis/tests/utils.py -> build/lib/django/contrib/gis/tests
+    creating build/lib/django/contrib/gis/tests/distapp
+    copying django/contrib/gis/tests/distapp/__init__.py -> build/lib/django/contrib/gis/tests/distapp
+    copying django/contrib/gis/tests/distapp/data.py -> build/lib/django/contrib/gis/tests/distapp
+    copying django/contrib/gis/tests/distapp/models.py -> build/lib/django/contrib/gis/tests/distapp
+    copying django/contrib/gis/tests/distapp/tests.py -> build/lib/django/contrib/gis/tests/distapp
+    creating build/lib/django/contrib/gis/tests/geoapp
+    copying django/contrib/gis/tests/geoapp/__init__.py -> build/lib/django/contrib/gis/tests/geoapp
+    copying django/contrib/gis/tests/geoapp/feeds.py -> build/lib/django/contrib/gis/tests/geoapp
+    copying django/contrib/gis/tests/geoapp/models.py -> build/lib/django/contrib/gis/tests/geoapp
+    copying django/contrib/gis/tests/geoapp/sitemaps.py -> build/lib/django/contrib/gis/tests/geoapp
+    copying django/contrib/gis/tests/geoapp/test_feeds.py -> build/lib/django/contrib/gis/tests/geoapp
+    copying django/contrib/gis/tests/geoapp/test_regress.py -> build/lib/django/contrib/gis/tests/geoapp
+    copying django/contrib/gis/tests/geoapp/test_sitemaps.py -> build/lib/django/contrib/gis/tests/geoapp
+    copying django/contrib/gis/tests/geoapp/tests.py -> build/lib/django/contrib/gis/tests/geoapp
+    copying django/contrib/gis/tests/geoapp/tests_mysql.py -> build/lib/django/contrib/gis/tests/geoapp
+    copying django/contrib/gis/tests/geoapp/urls.py -> build/lib/django/contrib/gis/tests/geoapp
+    creating build/lib/django/contrib/gis/tests/layermap
+    copying django/contrib/gis/tests/layermap/__init__.py -> build/lib/django/contrib/gis/tests/layermap
+    copying django/contrib/gis/tests/layermap/models.py -> build/lib/django/contrib/gis/tests/layermap
+    copying django/contrib/gis/tests/layermap/tests.py -> build/lib/django/contrib/gis/tests/layermap
+    copying django/contrib/gis/tests/layermap/tests_mysql.py -> build/lib/django/contrib/gis/tests/layermap
+    creating build/lib/django/contrib/gis/tests/relatedapp
+    copying django/contrib/gis/tests/relatedapp/__init__.py -> build/lib/django/contrib/gis/tests/relatedapp
+    copying django/contrib/gis/tests/relatedapp/models.py -> build/lib/django/contrib/gis/tests/relatedapp
+    copying django/contrib/gis/tests/relatedapp/tests.py -> build/lib/django/contrib/gis/tests/relatedapp
+    copying django/contrib/gis/tests/relatedapp/tests_mysql.py -> build/lib/django/contrib/gis/tests/relatedapp
+    creating build/lib/django/contrib/gis/utils
+    copying django/contrib/gis/utils/__init__.py -> build/lib/django/contrib/gis/utils
+    copying django/contrib/gis/utils/geoip.py -> build/lib/django/contrib/gis/utils
+    copying django/contrib/gis/utils/layermapping.py -> build/lib/django/contrib/gis/utils
+    copying django/contrib/gis/utils/ogrinfo.py -> build/lib/django/contrib/gis/utils
+    copying django/contrib/gis/utils/ogrinspect.py -> build/lib/django/contrib/gis/utils
+    copying django/contrib/gis/utils/srs.py -> build/lib/django/contrib/gis/utils
+    copying django/contrib/gis/utils/wkt.py -> build/lib/django/contrib/gis/utils
+    creating build/lib/django/contrib/humanize
+    copying django/contrib/humanize/__init__.py -> build/lib/django/contrib/humanize
+    creating build/lib/django/contrib/humanize/templatetags
+    copying django/contrib/humanize/templatetags/__init__.py -> build/lib/django/contrib/humanize/templatetags
+    copying django/contrib/humanize/templatetags/humanize.py -> build/lib/django/contrib/humanize/templatetags
+    creating build/lib/django/contrib/localflavor
+    copying django/contrib/localflavor/__init__.py -> build/lib/django/contrib/localflavor
+    creating build/lib/django/contrib/localflavor/ar
+    copying django/contrib/localflavor/ar/__init__.py -> build/lib/django/contrib/localflavor/ar
+    copying django/contrib/localflavor/ar/ar_provinces.py -> build/lib/django/contrib/localflavor/ar
+    copying django/contrib/localflavor/ar/forms.py -> build/lib/django/contrib/localflavor/ar
+    creating build/lib/django/contrib/localflavor/at
+    copying django/contrib/localflavor/at/__init__.py -> build/lib/django/contrib/localflavor/at
+    copying django/contrib/localflavor/at/at_states.py -> build/lib/django/contrib/localflavor/at
+    copying django/contrib/localflavor/at/forms.py -> build/lib/django/contrib/localflavor/at
+    creating build/lib/django/contrib/localflavor/au
+    copying django/contrib/localflavor/au/__init__.py -> build/lib/django/contrib/localflavor/au
+    copying django/contrib/localflavor/au/au_states.py -> build/lib/django/contrib/localflavor/au
+    copying django/contrib/localflavor/au/forms.py -> build/lib/django/contrib/localflavor/au
+    creating build/lib/django/contrib/localflavor/br
+    copying django/contrib/localflavor/br/__init__.py -> build/lib/django/contrib/localflavor/br
+    copying django/contrib/localflavor/br/br_states.py -> build/lib/django/contrib/localflavor/br
+    copying django/contrib/localflavor/br/forms.py -> build/lib/django/contrib/localflavor/br
+    creating build/lib/django/contrib/localflavor/ca
+    copying django/contrib/localflavor/ca/__init__.py -> build/lib/django/contrib/localflavor/ca
+    copying django/contrib/localflavor/ca/ca_provinces.py -> build/lib/django/contrib/localflavor/ca
+    copying django/contrib/localflavor/ca/forms.py -> build/lib/django/contrib/localflavor/ca
+    creating build/lib/django/contrib/localflavor/ch
+    copying django/contrib/localflavor/ch/__init__.py -> build/lib/django/contrib/localflavor/ch
+    copying django/contrib/localflavor/ch/ch_states.py -> build/lib/django/contrib/localflavor/ch
+    copying django/contrib/localflavor/ch/forms.py -> build/lib/django/contrib/localflavor/ch
+    creating build/lib/django/contrib/localflavor/cl
+    copying django/contrib/localflavor/cl/__init__.py -> build/lib/django/contrib/localflavor/cl
+    copying django/contrib/localflavor/cl/cl_regions.py -> build/lib/django/contrib/localflavor/cl
+    copying django/contrib/localflavor/cl/forms.py -> build/lib/django/contrib/localflavor/cl
+    creating build/lib/django/contrib/localflavor/cz
+    copying django/contrib/localflavor/cz/__init__.py -> build/lib/django/contrib/localflavor/cz
+    copying django/contrib/localflavor/cz/cz_regions.py -> build/lib/django/contrib/localflavor/cz
+    copying django/contrib/localflavor/cz/forms.py -> build/lib/django/contrib/localflavor/cz
+    creating build/lib/django/contrib/localflavor/de
+    copying django/contrib/localflavor/de/__init__.py -> build/lib/django/contrib/localflavor/de
+    copying django/contrib/localflavor/de/de_states.py -> build/lib/django/contrib/localflavor/de
+    copying django/contrib/localflavor/de/forms.py -> build/lib/django/contrib/localflavor/de
+    creating build/lib/django/contrib/localflavor/es
+    copying django/contrib/localflavor/es/__init__.py -> build/lib/django/contrib/localflavor/es
+    copying django/contrib/localflavor/es/es_provinces.py -> build/lib/django/contrib/localflavor/es
+    copying django/contrib/localflavor/es/es_regions.py -> build/lib/django/contrib/localflavor/es
+    copying django/contrib/localflavor/es/forms.py -> build/lib/django/contrib/localflavor/es
+    creating build/lib/django/contrib/localflavor/fi
+    copying django/contrib/localflavor/fi/__init__.py -> build/lib/django/contrib/localflavor/fi
+    copying django/contrib/localflavor/fi/fi_municipalities.py -> build/lib/django/contrib/localflavor/fi
+    copying django/contrib/localflavor/fi/forms.py -> build/lib/django/contrib/localflavor/fi
+    creating build/lib/django/contrib/localflavor/fr
+    copying django/contrib/localflavor/fr/__init__.py -> build/lib/django/contrib/localflavor/fr
+    copying django/contrib/localflavor/fr/forms.py -> build/lib/django/contrib/localflavor/fr
+    copying django/contrib/localflavor/fr/fr_department.py -> build/lib/django/contrib/localflavor/fr
+    creating build/lib/django/contrib/localflavor/generic
+    copying django/contrib/localflavor/generic/__init__.py -> build/lib/django/contrib/localflavor/generic
+    copying django/contrib/localflavor/generic/forms.py -> build/lib/django/contrib/localflavor/generic
+    creating build/lib/django/contrib/localflavor/in_
+    copying django/contrib/localflavor/in_/__init__.py -> build/lib/django/contrib/localflavor/in_
+    copying django/contrib/localflavor/in_/forms.py -> build/lib/django/contrib/localflavor/in_
+    copying django/contrib/localflavor/in_/in_states.py -> build/lib/django/contrib/localflavor/in_
+    creating build/lib/django/contrib/localflavor/is_
+    copying django/contrib/localflavor/is_/__init__.py -> build/lib/django/contrib/localflavor/is_
+    copying django/contrib/localflavor/is_/forms.py -> build/lib/django/contrib/localflavor/is_
+    copying django/contrib/localflavor/is_/is_postalcodes.py -> build/lib/django/contrib/localflavor/is_
+    creating build/lib/django/contrib/localflavor/it
+    copying django/contrib/localflavor/it/__init__.py -> build/lib/django/contrib/localflavor/it
+    copying django/contrib/localflavor/it/forms.py -> build/lib/django/contrib/localflavor/it
+    copying django/contrib/localflavor/it/it_province.py -> build/lib/django/contrib/localflavor/it
+    copying django/contrib/localflavor/it/it_region.py -> build/lib/django/contrib/localflavor/it
+    copying django/contrib/localflavor/it/util.py -> build/lib/django/contrib/localflavor/it
+    creating build/lib/django/contrib/localflavor/jp
+    copying django/contrib/localflavor/jp/__init__.py -> build/lib/django/contrib/localflavor/jp
+    copying django/contrib/localflavor/jp/forms.py -> build/lib/django/contrib/localflavor/jp
+    copying django/contrib/localflavor/jp/jp_prefectures.py -> build/lib/django/contrib/localflavor/jp
+    creating build/lib/django/contrib/localflavor/mx
+    copying django/contrib/localflavor/mx/__init__.py -> build/lib/django/contrib/localflavor/mx
+    copying django/contrib/localflavor/mx/forms.py -> build/lib/django/contrib/localflavor/mx
+    copying django/contrib/localflavor/mx/mx_states.py -> build/lib/django/contrib/localflavor/mx
+    creating build/lib/django/contrib/localflavor/nl
+    copying django/contrib/localflavor/nl/__init__.py -> build/lib/django/contrib/localflavor/nl
+    copying django/contrib/localflavor/nl/forms.py -> build/lib/django/contrib/localflavor/nl
+    copying django/contrib/localflavor/nl/nl_provinces.py -> build/lib/django/contrib/localflavor/nl
+    creating build/lib/django/contrib/localflavor/no
+    copying django/contrib/localflavor/no/__init__.py -> build/lib/django/contrib/localflavor/no
+    copying django/contrib/localflavor/no/forms.py -> build/lib/django/contrib/localflavor/no
+    copying django/contrib/localflavor/no/no_municipalities.py -> build/lib/django/contrib/localflavor/no
+    creating build/lib/django/contrib/localflavor/pe
+    copying django/contrib/localflavor/pe/__init__.py -> build/lib/django/contrib/localflavor/pe
+    copying django/contrib/localflavor/pe/forms.py -> build/lib/django/contrib/localflavor/pe
+    copying django/contrib/localflavor/pe/pe_region.py -> build/lib/django/contrib/localflavor/pe
+    creating build/lib/django/contrib/localflavor/pl
+    copying django/contrib/localflavor/pl/__init__.py -> build/lib/django/contrib/localflavor/pl
+    copying django/contrib/localflavor/pl/forms.py -> build/lib/django/contrib/localflavor/pl
+    copying django/contrib/localflavor/pl/pl_administrativeunits.py -> build/lib/django/contrib/localflavor/pl
+    copying django/contrib/localflavor/pl/pl_voivodeships.py -> build/lib/django/contrib/localflavor/pl
+    creating build/lib/django/contrib/localflavor/ro
+    copying django/contrib/localflavor/ro/__init__.py -> build/lib/django/contrib/localflavor/ro
+    copying django/contrib/localflavor/ro/forms.py -> build/lib/django/contrib/localflavor/ro
+    copying django/contrib/localflavor/ro/ro_counties.py -> build/lib/django/contrib/localflavor/ro
+    creating build/lib/django/contrib/localflavor/sk
+    copying django/contrib/localflavor/sk/__init__.py -> build/lib/django/contrib/localflavor/sk
+    copying django/contrib/localflavor/sk/forms.py -> build/lib/django/contrib/localflavor/sk
+    copying django/contrib/localflavor/sk/sk_districts.py -> build/lib/django/contrib/localflavor/sk
+    copying django/contrib/localflavor/sk/sk_regions.py -> build/lib/django/contrib/localflavor/sk
+    creating build/lib/django/contrib/localflavor/uk
+    copying django/contrib/localflavor/uk/__init__.py -> build/lib/django/contrib/localflavor/uk
+    copying django/contrib/localflavor/uk/forms.py -> build/lib/django/contrib/localflavor/uk
+    copying django/contrib/localflavor/uk/uk_regions.py -> build/lib/django/contrib/localflavor/uk
+    creating build/lib/django/contrib/localflavor/us
+    copying django/contrib/localflavor/us/__init__.py -> build/lib/django/contrib/localflavor/us
+    copying django/contrib/localflavor/us/forms.py -> build/lib/django/contrib/localflavor/us
+    copying django/contrib/localflavor/us/models.py -> build/lib/django/contrib/localflavor/us
+    copying django/contrib/localflavor/us/us_states.py -> build/lib/django/contrib/localflavor/us
+    creating build/lib/django/contrib/localflavor/za
+    copying django/contrib/localflavor/za/__init__.py -> build/lib/django/contrib/localflavor/za
+    copying django/contrib/localflavor/za/forms.py -> build/lib/django/contrib/localflavor/za
+    copying django/contrib/localflavor/za/za_provinces.py -> build/lib/django/contrib/localflavor/za
+    creating build/lib/django/contrib/markup
+    copying django/contrib/markup/__init__.py -> build/lib/django/contrib/markup
+    copying django/contrib/markup/models.py -> build/lib/django/contrib/markup
+    copying django/contrib/markup/tests.py -> build/lib/django/contrib/markup
+    creating build/lib/django/contrib/markup/templatetags
+    copying django/contrib/markup/templatetags/__init__.py -> build/lib/django/contrib/markup/templatetags
+    copying django/contrib/markup/templatetags/markup.py -> build/lib/django/contrib/markup/templatetags
+    creating build/lib/django/contrib/redirects
+    copying django/contrib/redirects/__init__.py -> build/lib/django/contrib/redirects
+    copying django/contrib/redirects/admin.py -> build/lib/django/contrib/redirects
+    copying django/contrib/redirects/middleware.py -> build/lib/django/contrib/redirects
+    copying django/contrib/redirects/models.py -> build/lib/django/contrib/redirects
+    creating build/lib/django/contrib/sessions
+    copying django/contrib/sessions/__init__.py -> build/lib/django/contrib/sessions
+    copying django/contrib/sessions/middleware.py -> build/lib/django/contrib/sessions
+    copying django/contrib/sessions/models.py -> build/lib/django/contrib/sessions
+    copying django/contrib/sessions/tests.py -> build/lib/django/contrib/sessions
+    creating build/lib/django/contrib/sessions/backends
+    copying django/contrib/sessions/backends/__init__.py -> build/lib/django/contrib/sessions/backends
+    copying django/contrib/sessions/backends/base.py -> build/lib/django/contrib/sessions/backends
+    copying django/contrib/sessions/backends/cache.py -> build/lib/django/contrib/sessions/backends
+    copying django/contrib/sessions/backends/cached_db.py -> build/lib/django/contrib/sessions/backends
+    copying django/contrib/sessions/backends/db.py -> build/lib/django/contrib/sessions/backends
+    copying django/contrib/sessions/backends/file.py -> build/lib/django/contrib/sessions/backends
+    creating build/lib/django/contrib/sitemaps
+    copying django/contrib/sitemaps/__init__.py -> build/lib/django/contrib/sitemaps
+    copying django/contrib/sitemaps/views.py -> build/lib/django/contrib/sitemaps
+    creating build/lib/django/contrib/sitemaps/management
+    copying django/contrib/sitemaps/management/__init__.py -> build/lib/django/contrib/sitemaps/management
+    creating build/lib/django/contrib/sitemaps/management/commands
+    copying django/contrib/sitemaps/management/commands/__init__.py -> build/lib/django/contrib/sitemaps/management/commands
+    copying django/contrib/sitemaps/management/commands/ping_google.py -> build/lib/django/contrib/sitemaps/management/commands
+    creating build/lib/django/contrib/sites
+    copying django/contrib/sites/__init__.py -> build/lib/django/contrib/sites
+    copying django/contrib/sites/admin.py -> build/lib/django/contrib/sites
+    copying django/contrib/sites/management.py -> build/lib/django/contrib/sites
+    copying django/contrib/sites/managers.py -> build/lib/django/contrib/sites
+    copying django/contrib/sites/models.py -> build/lib/django/contrib/sites
+    copying django/contrib/sites/tests.py -> build/lib/django/contrib/sites
+    creating build/lib/django/contrib/syndication
+    copying django/contrib/syndication/__init__.py -> build/lib/django/contrib/syndication
+    copying django/contrib/syndication/feeds.py -> build/lib/django/contrib/syndication
+    copying django/contrib/syndication/views.py -> build/lib/django/contrib/syndication
+    creating build/lib/django/contrib/webdesign
+    copying django/contrib/webdesign/__init__.py -> build/lib/django/contrib/webdesign
+    copying django/contrib/webdesign/lorem_ipsum.py -> build/lib/django/contrib/webdesign
+    copying django/contrib/webdesign/models.py -> build/lib/django/contrib/webdesign
+    copying django/contrib/webdesign/tests.py -> build/lib/django/contrib/webdesign
+    creating build/lib/django/contrib/webdesign/templatetags
+    copying django/contrib/webdesign/templatetags/__init__.py -> build/lib/django/contrib/webdesign/templatetags
+    copying django/contrib/webdesign/templatetags/webdesign.py -> build/lib/django/contrib/webdesign/templatetags
+    creating build/lib/django/core
+    copying django/core/__init__.py -> build/lib/django/core
+    copying django/core/context_processors.py -> build/lib/django/core
+    copying django/core/exceptions.py -> build/lib/django/core
+    copying django/core/mail.py -> build/lib/django/core
+    copying django/core/paginator.py -> build/lib/django/core
+    copying django/core/signals.py -> build/lib/django/core
+    copying django/core/template_loader.py -> build/lib/django/core
+    copying django/core/urlresolvers.py -> build/lib/django/core
+    copying django/core/xheaders.py -> build/lib/django/core
+    creating build/lib/django/core/cache
+    copying django/core/cache/__init__.py -> build/lib/django/core/cache
+    creating build/lib/django/core/cache/backends
+    copying django/core/cache/backends/__init__.py -> build/lib/django/core/cache/backends
+    copying django/core/cache/backends/base.py -> build/lib/django/core/cache/backends
+    copying django/core/cache/backends/db.py -> build/lib/django/core/cache/backends
+    copying django/core/cache/backends/dummy.py -> build/lib/django/core/cache/backends
+    copying django/core/cache/backends/filebased.py -> build/lib/django/core/cache/backends
+    copying django/core/cache/backends/locmem.py -> build/lib/django/core/cache/backends
+    copying django/core/cache/backends/memcached.py -> build/lib/django/core/cache/backends
+    creating build/lib/django/core/files
+    copying django/core/files/__init__.py -> build/lib/django/core/files
+    copying django/core/files/base.py -> build/lib/django/core/files
+    copying django/core/files/images.py -> build/lib/django/core/files
+    copying django/core/files/locks.py -> build/lib/django/core/files
+    copying django/core/files/move.py -> build/lib/django/core/files
+    copying django/core/files/storage.py -> build/lib/django/core/files
+    copying django/core/files/temp.py -> build/lib/django/core/files
+    copying django/core/files/uploadedfile.py -> build/lib/django/core/files
+    copying django/core/files/uploadhandler.py -> build/lib/django/core/files
+    copying django/core/files/utils.py -> build/lib/django/core/files
+    creating build/lib/django/core/handlers
+    copying django/core/handlers/__init__.py -> build/lib/django/core/handlers
+    copying django/core/handlers/base.py -> build/lib/django/core/handlers
+    copying django/core/handlers/modpython.py -> build/lib/django/core/handlers
+    copying django/core/handlers/profiler-hotshot.py -> build/lib/django/core/handlers
+    copying django/core/handlers/wsgi.py -> build/lib/django/core/handlers
+    creating build/lib/django/core/management
+    copying django/core/management/__init__.py -> build/lib/django/core/management
+    copying django/core/management/base.py -> build/lib/django/core/management
+    copying django/core/management/color.py -> build/lib/django/core/management
+    copying django/core/management/sql.py -> build/lib/django/core/management
+    copying django/core/management/validation.py -> build/lib/django/core/management
+    creating build/lib/django/core/management/commands
+    copying django/core/management/commands/__init__.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/cleanup.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/compilemessages.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/createcachetable.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/dbshell.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/diffsettings.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/dumpdata.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/flush.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/inspectdb.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/loaddata.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/makemessages.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/reset.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/runfcgi.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/runserver.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/shell.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/sql.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/sqlall.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/sqlclear.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/sqlcustom.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/sqlflush.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/sqlindexes.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/sqlinitialdata.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/sqlreset.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/sqlsequencereset.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/startapp.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/startproject.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/syncdb.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/test.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/testserver.py -> build/lib/django/core/management/commands
+    copying django/core/management/commands/validate.py -> build/lib/django/core/management/commands
+    creating build/lib/django/core/serializers
+    copying django/core/serializers/__init__.py -> build/lib/django/core/serializers
+    copying django/core/serializers/base.py -> build/lib/django/core/serializers
+    copying django/core/serializers/json.py -> build/lib/django/core/serializers
+    copying django/core/serializers/python.py -> build/lib/django/core/serializers
+    copying django/core/serializers/pyyaml.py -> build/lib/django/core/serializers
+    copying django/core/serializers/xml_serializer.py -> build/lib/django/core/serializers
+    creating build/lib/django/core/servers
+    copying django/core/servers/__init__.py -> build/lib/django/core/servers
+    copying django/core/servers/basehttp.py -> build/lib/django/core/servers
+    copying django/core/servers/fastcgi.py -> build/lib/django/core/servers
+    creating build/lib/django/db
+    copying django/db/__init__.py -> build/lib/django/db
+    copying django/db/transaction.py -> build/lib/django/db
+    creating build/lib/django/db/backends
+    copying django/db/backends/__init__.py -> build/lib/django/db/backends
+    copying django/db/backends/creation.py -> build/lib/django/db/backends
+    copying django/db/backends/signals.py -> build/lib/django/db/backends
+    copying django/db/backends/util.py -> build/lib/django/db/backends
+    creating build/lib/django/db/backends/dummy
+    copying django/db/backends/dummy/__init__.py -> build/lib/django/db/backends/dummy
+    copying django/db/backends/dummy/base.py -> build/lib/django/db/backends/dummy
+    creating build/lib/django/db/backends/mysql
+    copying django/db/backends/mysql/__init__.py -> build/lib/django/db/backends/mysql
+    copying django/db/backends/mysql/base.py -> build/lib/django/db/backends/mysql
+    copying django/db/backends/mysql/client.py -> build/lib/django/db/backends/mysql
+    copying django/db/backends/mysql/creation.py -> build/lib/django/db/backends/mysql
+    copying django/db/backends/mysql/introspection.py -> build/lib/django/db/backends/mysql
+    copying django/db/backends/mysql/validation.py -> build/lib/django/db/backends/mysql
+    creating build/lib/django/db/backends/oracle
+    copying django/db/backends/oracle/__init__.py -> build/lib/django/db/backends/oracle
+    copying django/db/backends/oracle/base.py -> build/lib/django/db/backends/oracle
+    copying django/db/backends/oracle/client.py -> build/lib/django/db/backends/oracle
+    copying django/db/backends/oracle/creation.py -> build/lib/django/db/backends/oracle
+    copying django/db/backends/oracle/introspection.py -> build/lib/django/db/backends/oracle
+    copying django/db/backends/oracle/query.py -> build/lib/django/db/backends/oracle
+    creating build/lib/django/db/backends/postgresql
+    copying django/db/backends/postgresql/__init__.py -> build/lib/django/db/backends/postgresql
+    copying django/db/backends/postgresql/base.py -> build/lib/django/db/backends/postgresql
+    copying django/db/backends/postgresql/client.py -> build/lib/django/db/backends/postgresql
+    copying django/db/backends/postgresql/creation.py -> build/lib/django/db/backends/postgresql
+    copying django/db/backends/postgresql/introspection.py -> build/lib/django/db/backends/postgresql
+    copying django/db/backends/postgresql/operations.py -> build/lib/django/db/backends/postgresql
+    copying django/db/backends/postgresql/version.py -> build/lib/django/db/backends/postgresql
+    creating build/lib/django/db/backends/postgresql_psycopg2
+    copying django/db/backends/postgresql_psycopg2/__init__.py -> build/lib/django/db/backends/postgresql_psycopg2
+    copying django/db/backends/postgresql_psycopg2/base.py -> build/lib/django/db/backends/postgresql_psycopg2
+    copying django/db/backends/postgresql_psycopg2/introspection.py -> build/lib/django/db/backends/postgresql_psycopg2
+    creating build/lib/django/db/backends/sqlite3
+    copying django/db/backends/sqlite3/__init__.py -> build/lib/django/db/backends/sqlite3
+    copying django/db/backends/sqlite3/base.py -> build/lib/django/db/backends/sqlite3
+    copying django/db/backends/sqlite3/client.py -> build/lib/django/db/backends/sqlite3
+    copying django/db/backends/sqlite3/creation.py -> build/lib/django/db/backends/sqlite3
+    copying django/db/backends/sqlite3/introspection.py -> build/lib/django/db/backends/sqlite3
+    creating build/lib/django/db/models
+    copying django/db/models/__init__.py -> build/lib/django/db/models
+    copying django/db/models/aggregates.py -> build/lib/django/db/models
+    copying django/db/models/base.py -> build/lib/django/db/models
+    copying django/db/models/expressions.py -> build/lib/django/db/models
+    copying django/db/models/loading.py -> build/lib/django/db/models
+    copying django/db/models/manager.py -> build/lib/django/db/models
+    copying django/db/models/options.py -> build/lib/django/db/models
+    copying django/db/models/query.py -> build/lib/django/db/models
+    copying django/db/models/query_utils.py -> build/lib/django/db/models
+    copying django/db/models/related.py -> build/lib/django/db/models
+    copying django/db/models/signals.py -> build/lib/django/db/models
+    creating build/lib/django/db/models/fields
+    copying django/db/models/fields/__init__.py -> build/lib/django/db/models/fields
+    copying django/db/models/fields/files.py -> build/lib/django/db/models/fields
+    copying django/db/models/fields/proxy.py -> build/lib/django/db/models/fields
+    copying django/db/models/fields/related.py -> build/lib/django/db/models/fields
+    copying django/db/models/fields/subclassing.py -> build/lib/django/db/models/fields
+    creating build/lib/django/db/models/sql
+    copying django/db/models/sql/__init__.py -> build/lib/django/db/models/sql
+    copying django/db/models/sql/aggregates.py -> build/lib/django/db/models/sql
+    copying django/db/models/sql/constants.py -> build/lib/django/db/models/sql
+    copying django/db/models/sql/datastructures.py -> build/lib/django/db/models/sql
+    copying django/db/models/sql/expressions.py -> build/lib/django/db/models/sql
+    copying django/db/models/sql/query.py -> build/lib/django/db/models/sql
+    copying django/db/models/sql/subqueries.py -> build/lib/django/db/models/sql
+    copying django/db/models/sql/where.py -> build/lib/django/db/models/sql
+    creating build/lib/django/dispatch
+    copying django/dispatch/__init__.py -> build/lib/django/dispatch
+    copying django/dispatch/dispatcher.py -> build/lib/django/dispatch
+    copying django/dispatch/saferef.py -> build/lib/django/dispatch
+    creating build/lib/django/forms
+    copying django/forms/__init__.py -> build/lib/django/forms
+    copying django/forms/fields.py -> build/lib/django/forms
+    copying django/forms/forms.py -> build/lib/django/forms
+    copying django/forms/formsets.py -> build/lib/django/forms
+    copying django/forms/models.py -> build/lib/django/forms
+    copying django/forms/util.py -> build/lib/django/forms
+    copying django/forms/widgets.py -> build/lib/django/forms
+    creating build/lib/django/forms/extras
+    copying django/forms/extras/__init__.py -> build/lib/django/forms/extras
+    copying django/forms/extras/widgets.py -> build/lib/django/forms/extras
+    creating build/lib/django/http
+    copying django/http/__init__.py -> build/lib/django/http
+    copying django/http/multipartparser.py -> build/lib/django/http
+    copying django/http/utils.py -> build/lib/django/http
+    creating build/lib/django/middleware
+    copying django/middleware/__init__.py -> build/lib/django/middleware
+    copying django/middleware/cache.py -> build/lib/django/middleware
+    copying django/middleware/common.py -> build/lib/django/middleware
+    copying django/middleware/doc.py -> build/lib/django/middleware
+    copying django/middleware/gzip.py -> build/lib/django/middleware
+    copying django/middleware/http.py -> build/lib/django/middleware
+    copying django/middleware/locale.py -> build/lib/django/middleware
+    copying django/middleware/transaction.py -> build/lib/django/middleware
+    creating build/lib/django/shortcuts
+    copying django/shortcuts/__init__.py -> build/lib/django/shortcuts
+    creating build/lib/django/template
+    copying django/template/__init__.py -> build/lib/django/template
+    copying django/template/context.py -> build/lib/django/template
+    copying django/template/debug.py -> build/lib/django/template
+    copying django/template/defaultfilters.py -> build/lib/django/template
+    copying django/template/defaulttags.py -> build/lib/django/template
+    copying django/template/loader.py -> build/lib/django/template
+    copying django/template/loader_tags.py -> build/lib/django/template
+    creating build/lib/django/template/loaders
+    copying django/template/loaders/__init__.py -> build/lib/django/template/loaders
+    copying django/template/loaders/app_directories.py -> build/lib/django/template/loaders
+    copying django/template/loaders/eggs.py -> build/lib/django/template/loaders
+    copying django/template/loaders/filesystem.py -> build/lib/django/template/loaders
+    creating build/lib/django/templatetags
+    copying django/templatetags/__init__.py -> build/lib/django/templatetags
+    copying django/templatetags/cache.py -> build/lib/django/templatetags
+    copying django/templatetags/i18n.py -> build/lib/django/templatetags
+    creating build/lib/django/test
+    copying django/test/__init__.py -> build/lib/django/test
+    copying django/test/_doctest.py -> build/lib/django/test
+    copying django/test/client.py -> build/lib/django/test
+    copying django/test/signals.py -> build/lib/django/test
+    copying django/test/simple.py -> build/lib/django/test
+    copying django/test/testcases.py -> build/lib/django/test
+    copying django/test/utils.py -> build/lib/django/test
+    creating build/lib/django/utils
+    copying django/utils/__init__.py -> build/lib/django/utils
+    copying django/utils/_decimal.py -> build/lib/django/utils
+    copying django/utils/_os.py -> build/lib/django/utils
+    copying django/utils/_threading_local.py -> build/lib/django/utils
+    copying django/utils/autoreload.py -> build/lib/django/utils
+    copying django/utils/cache.py -> build/lib/django/utils
+    copying django/utils/checksums.py -> build/lib/django/utils
+    copying django/utils/daemonize.py -> build/lib/django/utils
+    copying django/utils/datastructures.py -> build/lib/django/utils
+    copying django/utils/dateformat.py -> build/lib/django/utils
+    copying django/utils/dates.py -> build/lib/django/utils
+    copying django/utils/datetime_safe.py -> build/lib/django/utils
+    copying django/utils/decorators.py -> build/lib/django/utils
+    copying django/utils/encoding.py -> build/lib/django/utils
+    copying django/utils/feedgenerator.py -> build/lib/django/utils
+    copying django/utils/functional.py -> build/lib/django/utils
+    copying django/utils/hashcompat.py -> build/lib/django/utils
+    copying django/utils/html.py -> build/lib/django/utils
+    copying django/utils/http.py -> build/lib/django/utils
+    copying django/utils/importlib.py -> build/lib/django/utils
+    copying django/utils/itercompat.py -> build/lib/django/utils
+    copying django/utils/regex_helper.py -> build/lib/django/utils
+    copying django/utils/safestring.py -> build/lib/django/utils
+    copying django/utils/stopwords.py -> build/lib/django/utils
+    copying django/utils/synch.py -> build/lib/django/utils
+    copying django/utils/termcolors.py -> build/lib/django/utils
+    copying django/utils/text.py -> build/lib/django/utils
+    copying django/utils/thread_support.py -> build/lib/django/utils
+    copying django/utils/timesince.py -> build/lib/django/utils
+    copying django/utils/tree.py -> build/lib/django/utils
+    copying django/utils/tzinfo.py -> build/lib/django/utils
+    copying django/utils/version.py -> build/lib/django/utils
+    copying django/utils/xmlutils.py -> build/lib/django/utils
+    creating build/lib/django/utils/simplejson
+    copying django/utils/simplejson/__init__.py -> build/lib/django/utils/simplejson
+    copying django/utils/simplejson/decoder.py -> build/lib/django/utils/simplejson
+    copying django/utils/simplejson/encoder.py -> build/lib/django/utils/simplejson
+    copying django/utils/simplejson/scanner.py -> build/lib/django/utils/simplejson
+    copying django/utils/simplejson/tool.py -> build/lib/django/utils/simplejson
+    creating build/lib/django/utils/translation
+    copying django/utils/translation/__init__.py -> build/lib/django/utils/translation
+    copying django/utils/translation/trans_null.py -> build/lib/django/utils/translation
+    copying django/utils/translation/trans_real.py -> build/lib/django/utils/translation
+    creating build/lib/django/views
+    copying django/views/__init__.py -> build/lib/django/views
+    copying django/views/debug.py -> build/lib/django/views
+    copying django/views/defaults.py -> build/lib/django/views
+    copying django/views/i18n.py -> build/lib/django/views
+    copying django/views/static.py -> build/lib/django/views
+    creating build/lib/django/views/decorators
+    copying django/views/decorators/__init__.py -> build/lib/django/views/decorators
+    copying django/views/decorators/cache.py -> build/lib/django/views/decorators
+    copying django/views/decorators/gzip.py -> build/lib/django/views/decorators
+    copying django/views/decorators/http.py -> build/lib/django/views/decorators
+    copying django/views/decorators/vary.py -> build/lib/django/views/decorators
+    creating build/lib/django/views/generic
+    copying django/views/generic/__init__.py -> build/lib/django/views/generic
+    copying django/views/generic/create_update.py -> build/lib/django/views/generic
+    copying django/views/generic/date_based.py -> build/lib/django/views/generic
+    copying django/views/generic/list_detail.py -> build/lib/django/views/generic
+    copying django/views/generic/simple.py -> build/lib/django/views/generic
+    running build_scripts
+    creating build/scripts-2.6
+    copying and adjusting django/bin/django-admin.py -> build/scripts-2.6
+    changing mode of build/scripts-2.6/django-admin.py from 644 to 755
+    running install_lib
+    copying build/lib/django/__init__.py -> /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/django
+    error: could not delete '/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/django/__init__.py': Permission denied
+    Complete output from command /Library/Frameworks/Python.framework/Versions/2.6/Resources/Python.app/Contents/MacOS/Python -c "import setuptools; __file__='/Users/matth/Projects/D-ACIS/parcelsurvey/build/Django/setup.py'; execfile('/Users/matth/Projects/D-ACIS/parcelsurvey/build/Django/setup.py')" install --single-version-externally-managed --record /var/folders/GZ/GZPEKy8PGHy8vKM+uMFEVk+++TI/-Tmp-/pip-gdVc7G-record/install-record.txt --install-headers /Users/matth/Projects/D-ACIS/parcelsurvey/lib/include:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib
+
+creating build/lib/django
+
+copying django/__init__.py -> build/lib/django
+
+creating build/lib/django/bin
+
+copying django/bin/__init__.py -> build/lib/django/bin
+
+copying django/bin/compile-messages.py -> build/lib/django/bin
+
+copying django/bin/daily_cleanup.py -> build/lib/django/bin
+
+copying django/bin/django-admin.py -> build/lib/django/bin
+
+copying django/bin/make-messages.py -> build/lib/django/bin
+
+copying django/bin/unique-messages.py -> build/lib/django/bin
+
+creating build/lib/django/bin/profiling
+
+copying django/bin/profiling/__init__.py -> build/lib/django/bin/profiling
+
+copying django/bin/profiling/gather_profile_stats.py -> build/lib/django/bin/profiling
+
+creating build/lib/django/conf
+
+copying django/conf/__init__.py -> build/lib/django/conf
+
+copying django/conf/global_settings.py -> build/lib/django/conf
+
+creating build/lib/django/conf/app_template
+
+copying django/conf/app_template/__init__.py -> build/lib/django/conf/app_template
+
+copying django/conf/app_template/models.py -> build/lib/django/conf/app_template
+
+copying django/conf/app_template/tests.py -> build/lib/django/conf/app_template
+
+copying django/conf/app_template/views.py -> build/lib/django/conf/app_template
+
+creating build/lib/django/conf/project_template
+
+copying django/conf/project_template/__init__.py -> build/lib/django/conf/project_template
+
+copying django/conf/project_template/manage.py -> build/lib/django/conf/project_template
+
+copying django/conf/project_template/settings.py -> build/lib/django/conf/project_template
+
+copying django/conf/project_template/urls.py -> build/lib/django/conf/project_template
+
+creating build/lib/django/conf/urls
+
+copying django/conf/urls/__init__.py -> build/lib/django/conf/urls
+
+copying django/conf/urls/defaults.py -> build/lib/django/conf/urls
+
+copying django/conf/urls/i18n.py -> build/lib/django/conf/urls
+
+copying django/conf/urls/shortcut.py -> build/lib/django/conf/urls
+
+creating build/lib/django/contrib
+
+copying django/contrib/__init__.py -> build/lib/django/contrib
+
+creating build/lib/django/contrib/admin
+
+copying django/contrib/admin/__init__.py -> build/lib/django/contrib/admin
+
+copying django/contrib/admin/actions.py -> build/lib/django/contrib/admin
+
+copying django/contrib/admin/filterspecs.py -> build/lib/django/contrib/admin
+
+copying django/contrib/admin/helpers.py -> build/lib/django/contrib/admin
+
+copying django/contrib/admin/models.py -> build/lib/django/contrib/admin
+
+copying django/contrib/admin/options.py -> build/lib/django/contrib/admin
+
+copying django/contrib/admin/sites.py -> build/lib/django/contrib/admin
+
+copying django/contrib/admin/util.py -> build/lib/django/contrib/admin
+
+copying django/contrib/admin/validation.py -> build/lib/django/contrib/admin
+
+copying django/contrib/admin/widgets.py -> build/lib/django/contrib/admin
+
+creating build/lib/django/contrib/admin/templatetags
+
+copying django/contrib/admin/templatetags/__init__.py -> build/lib/django/contrib/admin/templatetags
+
+copying django/contrib/admin/templatetags/admin_list.py -> build/lib/django/contrib/admin/templatetags
+
+copying django/contrib/admin/templatetags/admin_modify.py -> build/lib/django/contrib/admin/templatetags
+
+copying django/contrib/admin/templatetags/adminmedia.py -> build/lib/django/contrib/admin/templatetags
+
+copying django/contrib/admin/templatetags/log.py -> build/lib/django/contrib/admin/templatetags
+
+creating build/lib/django/contrib/admin/views
+
+copying django/contrib/admin/views/__init__.py -> build/lib/django/contrib/admin/views
+
+copying django/contrib/admin/views/decorators.py -> build/lib/django/contrib/admin/views
+
+copying django/contrib/admin/views/main.py -> build/lib/django/contrib/admin/views
+
+copying django/contrib/admin/views/template.py -> build/lib/django/contrib/admin/views
+
+creating build/lib/django/contrib/admindocs
+
+copying django/contrib/admindocs/__init__.py -> build/lib/django/contrib/admindocs
+
+copying django/contrib/admindocs/urls.py -> build/lib/django/contrib/admindocs
+
+copying django/contrib/admindocs/utils.py -> build/lib/django/contrib/admindocs
+
+copying django/contrib/admindocs/views.py -> build/lib/django/contrib/admindocs
+
+creating build/lib/django/contrib/auth
+
+copying django/contrib/auth/__init__.py -> build/lib/django/contrib/auth
+
+copying django/contrib/auth/admin.py -> build/lib/django/contrib/auth
+
+copying django/contrib/auth/backends.py -> build/lib/django/contrib/auth
+
+copying django/contrib/auth/create_superuser.py -> build/lib/django/contrib/auth
+
+copying django/contrib/auth/decorators.py -> build/lib/django/contrib/auth
+
+copying django/contrib/auth/forms.py -> build/lib/django/contrib/auth
+
+copying django/contrib/auth/middleware.py -> build/lib/django/contrib/auth
+
+copying django/contrib/auth/models.py -> build/lib/django/contrib/auth
+
+copying django/contrib/auth/tokens.py -> build/lib/django/contrib/auth
+
+copying django/contrib/auth/urls.py -> build/lib/django/contrib/auth
+
+copying django/contrib/auth/views.py -> build/lib/django/contrib/auth
+
+creating build/lib/django/contrib/auth/handlers
+
+copying django/contrib/auth/handlers/__init__.py -> build/lib/django/contrib/auth/handlers
+
+copying django/contrib/auth/handlers/modpython.py -> build/lib/django/contrib/auth/handlers
+
+creating build/lib/django/contrib/auth/management
+
+copying django/contrib/auth/management/__init__.py -> build/lib/django/contrib/auth/management
+
+creating build/lib/django/contrib/auth/management/commands
+
+copying django/contrib/auth/management/commands/__init__.py -> build/lib/django/contrib/auth/management/commands
+
+copying django/contrib/auth/management/commands/createsuperuser.py -> build/lib/django/contrib/auth/management/commands
+
+creating build/lib/django/contrib/auth/tests
+
+copying django/contrib/auth/tests/__init__.py -> build/lib/django/contrib/auth/tests
+
+copying django/contrib/auth/tests/basic.py -> build/lib/django/contrib/auth/tests
+
+copying django/contrib/auth/tests/forms.py -> build/lib/django/contrib/auth/tests
+
+copying django/contrib/auth/tests/remote_user.py -> build/lib/django/contrib/auth/tests
+
+copying django/contrib/auth/tests/tokens.py -> build/lib/django/contrib/auth/tests
+
+copying django/contrib/auth/tests/urls.py -> build/lib/django/contrib/auth/tests
+
+copying django/contrib/auth/tests/views.py -> build/lib/django/contrib/auth/tests
+
+creating build/lib/django/contrib/comments
+
+copying django/contrib/comments/__init__.py -> build/lib/django/contrib/comments
+
+copying django/contrib/comments/admin.py -> build/lib/django/contrib/comments
+
+copying django/contrib/comments/feeds.py -> build/lib/django/contrib/comments
+
+copying django/contrib/comments/forms.py -> build/lib/django/contrib/comments
+
+copying django/contrib/comments/managers.py -> build/lib/django/contrib/comments
+
+copying django/contrib/comments/models.py -> build/lib/django/contrib/comments
+
+copying django/contrib/comments/moderation.py -> build/lib/django/contrib/comments
+
+copying django/contrib/comments/signals.py -> build/lib/django/contrib/comments
+
+copying django/contrib/comments/urls.py -> build/lib/django/contrib/comments
+
+creating build/lib/django/contrib/comments/templatetags
+
+copying django/contrib/comments/templatetags/__init__.py -> build/lib/django/contrib/comments/templatetags
+
+copying django/contrib/comments/templatetags/comments.py -> build/lib/django/contrib/comments/templatetags
+
+creating build/lib/django/contrib/comments/views
+
+copying django/contrib/comments/views/__init__.py -> build/lib/django/contrib/comments/views
+
+copying django/contrib/comments/views/comments.py -> build/lib/django/contrib/comments/views
+
+copying django/contrib/comments/views/moderation.py -> build/lib/django/contrib/comments/views
+
+copying django/contrib/comments/views/utils.py -> build/lib/django/contrib/comments/views
+
+creating build/lib/django/contrib/contenttypes
+
+copying django/contrib/contenttypes/__init__.py -> build/lib/django/contrib/contenttypes
+
+copying django/contrib/contenttypes/generic.py -> build/lib/django/contrib/contenttypes
+
+copying django/contrib/contenttypes/management.py -> build/lib/django/contrib/contenttypes
+
+copying django/contrib/contenttypes/models.py -> build/lib/django/contrib/contenttypes
+
+copying django/contrib/contenttypes/tests.py -> build/lib/django/contrib/contenttypes
+
+copying django/contrib/contenttypes/views.py -> build/lib/django/contrib/contenttypes
+
+creating build/lib/django/contrib/csrf
+
+copying django/contrib/csrf/__init__.py -> build/lib/django/contrib/csrf
+
+copying django/contrib/csrf/middleware.py -> build/lib/django/contrib/csrf
+
+copying django/contrib/csrf/models.py -> build/lib/django/contrib/csrf
+
+copying django/contrib/csrf/tests.py -> build/lib/django/contrib/csrf
+
+creating build/lib/django/contrib/databrowse
+
+copying django/contrib/databrowse/__init__.py -> build/lib/django/contrib/databrowse
+
+copying django/contrib/databrowse/datastructures.py -> build/lib/django/contrib/databrowse
+
+copying django/contrib/databrowse/sites.py -> build/lib/django/contrib/databrowse
+
+copying django/contrib/databrowse/urls.py -> build/lib/django/contrib/databrowse
+
+copying django/contrib/databrowse/views.py -> build/lib/django/contrib/databrowse
+
+creating build/lib/django/contrib/databrowse/plugins
+
+copying django/contrib/databrowse/plugins/__init__.py -> build/lib/django/contrib/databrowse/plugins
+
+copying django/contrib/databrowse/plugins/calendars.py -> build/lib/django/contrib/databrowse/plugins
+
+copying django/contrib/databrowse/plugins/fieldchoices.py -> build/lib/django/contrib/databrowse/plugins
+
+copying django/contrib/databrowse/plugins/objects.py -> build/lib/django/contrib/databrowse/plugins
+
+creating build/lib/django/contrib/flatpages
+
+copying django/contrib/flatpages/__init__.py -> build/lib/django/contrib/flatpages
+
+copying django/contrib/flatpages/admin.py -> build/lib/django/contrib/flatpages
+
+copying django/contrib/flatpages/middleware.py -> build/lib/django/contrib/flatpages
+
+copying django/contrib/flatpages/models.py -> build/lib/django/contrib/flatpages
+
+copying django/contrib/flatpages/urls.py -> build/lib/django/contrib/flatpages
+
+copying django/contrib/flatpages/views.py -> build/lib/django/contrib/flatpages
+
+creating build/lib/django/contrib/formtools
+
+copying django/contrib/formtools/__init__.py -> build/lib/django/contrib/formtools
+
+copying django/contrib/formtools/models.py -> build/lib/django/contrib/formtools
+
+copying django/contrib/formtools/preview.py -> build/lib/django/contrib/formtools
+
+copying django/contrib/formtools/test_urls.py -> build/lib/django/contrib/formtools
+
+copying django/contrib/formtools/tests.py -> build/lib/django/contrib/formtools
+
+copying django/contrib/formtools/utils.py -> build/lib/django/contrib/formtools
+
+copying django/contrib/formtools/wizard.py -> build/lib/django/contrib/formtools
+
+creating build/lib/django/contrib/gis
+
+copying django/contrib/gis/__init__.py -> build/lib/django/contrib/gis
+
+copying django/contrib/gis/feeds.py -> build/lib/django/contrib/gis
+
+copying django/contrib/gis/measure.py -> build/lib/django/contrib/gis
+
+copying django/contrib/gis/models.py -> build/lib/django/contrib/gis
+
+copying django/contrib/gis/shortcuts.py -> build/lib/django/contrib/gis
+
+creating build/lib/django/contrib/gis/admin
+
+copying django/contrib/gis/admin/__init__.py -> build/lib/django/contrib/gis/admin
+
+copying django/contrib/gis/admin/options.py -> build/lib/django/contrib/gis/admin
+
+copying django/contrib/gis/admin/widgets.py -> build/lib/django/contrib/gis/admin
+
+creating build/lib/django/contrib/gis/db
+
+copying django/contrib/gis/db/__init__.py -> build/lib/django/contrib/gis/db
+
+creating build/lib/django/contrib/gis/db/backend
+
+copying django/contrib/gis/db/backend/__init__.py -> build/lib/django/contrib/gis/db/backend
+
+copying django/contrib/gis/db/backend/adaptor.py -> build/lib/django/contrib/gis/db/backend
+
+copying django/contrib/gis/db/backend/base.py -> build/lib/django/contrib/gis/db/backend
+
+copying django/contrib/gis/db/backend/util.py -> build/lib/django/contrib/gis/db/backend
+
+creating build/lib/django/contrib/gis/db/backend/mysql
+
+copying django/contrib/gis/db/backend/mysql/__init__.py -> build/lib/django/contrib/gis/db/backend/mysql
+
+copying django/contrib/gis/db/backend/mysql/creation.py -> build/lib/django/contrib/gis/db/backend/mysql
+
+copying django/contrib/gis/db/backend/mysql/field.py -> build/lib/django/contrib/gis/db/backend/mysql
+
+copying django/contrib/gis/db/backend/mysql/query.py -> build/lib/django/contrib/gis/db/backend/mysql
+
+creating build/lib/django/contrib/gis/db/backend/oracle
+
+copying django/contrib/gis/db/backend/oracle/__init__.py -> build/lib/django/contrib/gis/db/backend/oracle
+
+copying django/contrib/gis/db/backend/oracle/adaptor.py -> build/lib/django/contrib/gis/db/backend/oracle
+
+copying django/contrib/gis/db/backend/oracle/creation.py -> build/lib/django/contrib/gis/db/backend/oracle
+
+copying django/contrib/gis/db/backend/oracle/field.py -> build/lib/django/contrib/gis/db/backend/oracle
+
+copying django/contrib/gis/db/backend/oracle/models.py -> build/lib/django/contrib/gis/db/backend/oracle
+
+copying django/contrib/gis/db/backend/oracle/query.py -> build/lib/django/contrib/gis/db/backend/oracle
+
+creating build/lib/django/contrib/gis/db/backend/postgis
+
+copying django/contrib/gis/db/backend/postgis/__init__.py -> build/lib/django/contrib/gis/db/backend/postgis
+
+copying django/contrib/gis/db/backend/postgis/adaptor.py -> build/lib/django/contrib/gis/db/backend/postgis
+
+copying django/contrib/gis/db/backend/postgis/creation.py -> build/lib/django/contrib/gis/db/backend/postgis
+
+copying django/contrib/gis/db/backend/postgis/field.py -> build/lib/django/contrib/gis/db/backend/postgis
+
+copying django/contrib/gis/db/backend/postgis/management.py -> build/lib/django/contrib/gis/db/backend/postgis
+
+copying django/contrib/gis/db/backend/postgis/models.py -> build/lib/django/contrib/gis/db/backend/postgis
+
+copying django/contrib/gis/db/backend/postgis/query.py -> build/lib/django/contrib/gis/db/backend/postgis
+
+creating build/lib/django/contrib/gis/db/backend/spatialite
+
+copying django/contrib/gis/db/backend/spatialite/__init__.py -> build/lib/django/contrib/gis/db/backend/spatialite
+
+copying django/contrib/gis/db/backend/spatialite/adaptor.py -> build/lib/django/contrib/gis/db/backend/spatialite
+
+copying django/contrib/gis/db/backend/spatialite/creation.py -> build/lib/django/contrib/gis/db/backend/spatialite
+
+copying django/contrib/gis/db/backend/spatialite/field.py -> build/lib/django/contrib/gis/db/backend/spatialite
+
+copying django/contrib/gis/db/backend/spatialite/models.py -> build/lib/django/contrib/gis/db/backend/spatialite
+
+copying django/contrib/gis/db/backend/spatialite/query.py -> build/lib/django/contrib/gis/db/backend/spatialite
+
+creating build/lib/django/contrib/gis/db/models
+
+copying django/contrib/gis/db/models/__init__.py -> build/lib/django/contrib/gis/db/models
+
+copying django/contrib/gis/db/models/aggregates.py -> build/lib/django/contrib/gis/db/models
+
+copying django/contrib/gis/db/models/manager.py -> build/lib/django/contrib/gis/db/models
+
+copying django/contrib/gis/db/models/proxy.py -> build/lib/django/contrib/gis/db/models
+
+copying django/contrib/gis/db/models/query.py -> build/lib/django/contrib/gis/db/models
+
+creating build/lib/django/contrib/gis/db/models/fields
+
+copying django/contrib/gis/db/models/fields/__init__.py -> build/lib/django/contrib/gis/db/models/fields
+
+creating build/lib/django/contrib/gis/db/models/sql
+
+copying django/contrib/gis/db/models/sql/__init__.py -> build/lib/django/contrib/gis/db/models/sql
+
+copying django/contrib/gis/db/models/sql/aggregates.py -> build/lib/django/contrib/gis/db/models/sql
+
+copying django/contrib/gis/db/models/sql/conversion.py -> build/lib/django/contrib/gis/db/models/sql
+
+copying django/contrib/gis/db/models/sql/query.py -> build/lib/django/contrib/gis/db/models/sql
+
+copying django/contrib/gis/db/models/sql/subqueries.py -> build/lib/django/contrib/gis/db/models/sql
+
+copying django/contrib/gis/db/models/sql/where.py -> build/lib/django/contrib/gis/db/models/sql
+
+creating build/lib/django/contrib/gis/forms
+
+copying django/contrib/gis/forms/__init__.py -> build/lib/django/contrib/gis/forms
+
+copying django/contrib/gis/forms/fields.py -> build/lib/django/contrib/gis/forms
+
+creating build/lib/django/contrib/gis/gdal
+
+copying django/contrib/gis/gdal/__init__.py -> build/lib/django/contrib/gis/gdal
+
+copying django/contrib/gis/gdal/base.py -> build/lib/django/contrib/gis/gdal
+
+copying django/contrib/gis/gdal/datasource.py -> build/lib/django/contrib/gis/gdal
+
+copying django/contrib/gis/gdal/driver.py -> build/lib/django/contrib/gis/gdal
+
+copying django/contrib/gis/gdal/envelope.py -> build/lib/django/contrib/gis/gdal
+
+copying django/contrib/gis/gdal/error.py -> build/lib/django/contrib/gis/gdal
+
+copying django/contrib/gis/gdal/feature.py -> build/lib/django/contrib/gis/gdal
+
+copying django/contrib/gis/gdal/field.py -> build/lib/django/contrib/gis/gdal
+
+copying django/contrib/gis/gdal/geometries.py -> build/lib/django/contrib/gis/gdal
+
+copying django/contrib/gis/gdal/geomtype.py -> build/lib/django/contrib/gis/gdal
+
+copying django/contrib/gis/gdal/layer.py -> build/lib/django/contrib/gis/gdal
+
+copying django/contrib/gis/gdal/libgdal.py -> build/lib/django/contrib/gis/gdal
+
+copying django/contrib/gis/gdal/srs.py -> build/lib/django/contrib/gis/gdal
+
+creating build/lib/django/contrib/gis/gdal/prototypes
+
+copying django/contrib/gis/gdal/prototypes/__init__.py -> build/lib/django/contrib/gis/gdal/prototypes
+
+copying django/contrib/gis/gdal/prototypes/ds.py -> build/lib/django/contrib/gis/gdal/prototypes
+
+copying django/contrib/gis/gdal/prototypes/errcheck.py -> build/lib/django/contrib/gis/gdal/prototypes
+
+copying django/contrib/gis/gdal/prototypes/generation.py -> build/lib/django/contrib/gis/gdal/prototypes
+
+copying django/contrib/gis/gdal/prototypes/geom.py -> build/lib/django/contrib/gis/gdal/prototypes
+
+copying django/contrib/gis/gdal/prototypes/srs.py -> build/lib/django/contrib/gis/gdal/prototypes
+
+creating build/lib/django/contrib/gis/gdal/tests
+
+copying django/contrib/gis/gdal/tests/__init__.py -> build/lib/django/contrib/gis/gdal/tests
+
+copying django/contrib/gis/gdal/tests/test_driver.py -> build/lib/django/contrib/gis/gdal/tests
+
+copying django/contrib/gis/gdal/tests/test_ds.py -> build/lib/django/contrib/gis/gdal/tests
+
+copying django/contrib/gis/gdal/tests/test_envelope.py -> build/lib/django/contrib/gis/gdal/tests
+
+copying django/contrib/gis/gdal/tests/test_geom.py -> build/lib/django/contrib/gis/gdal/tests
+
+copying django/contrib/gis/gdal/tests/test_srs.py -> build/lib/django/contrib/gis/gdal/tests
+
+creating build/lib/django/contrib/gis/geos
+
+copying django/contrib/gis/geos/__init__.py -> build/lib/django/contrib/gis/geos
+
+copying django/contrib/gis/geos/base.py -> build/lib/django/contrib/gis/geos
+
+copying django/contrib/gis/geos/collections.py -> build/lib/django/contrib/gis/geos
+
+copying django/contrib/gis/geos/coordseq.py -> build/lib/django/contrib/gis/geos
+
+copying django/contrib/gis/geos/error.py -> build/lib/django/contrib/gis/geos
+
+copying django/contrib/gis/geos/factory.py -> build/lib/django/contrib/gis/geos
+
+copying django/contrib/gis/geos/geometry.py -> build/lib/django/contrib/gis/geos
+
+copying django/contrib/gis/geos/io.py -> build/lib/django/contrib/gis/geos
+
+copying django/contrib/gis/geos/libgeos.py -> build/lib/django/contrib/gis/geos
+
+copying django/contrib/gis/geos/linestring.py -> build/lib/django/contrib/gis/geos
+
+copying django/contrib/gis/geos/mutable_list.py -> build/lib/django/contrib/gis/geos
+
+copying django/contrib/gis/geos/point.py -> build/lib/django/contrib/gis/geos
+
+copying django/contrib/gis/geos/polygon.py -> build/lib/django/contrib/gis/geos
+
+copying django/contrib/gis/geos/prepared.py -> build/lib/django/contrib/gis/geos
+
+creating build/lib/django/contrib/gis/geos/prototypes
+
+copying django/contrib/gis/geos/prototypes/__init__.py -> build/lib/django/contrib/gis/geos/prototypes
+
+copying django/contrib/gis/geos/prototypes/coordseq.py -> build/lib/django/contrib/gis/geos/prototypes
+
+copying django/contrib/gis/geos/prototypes/errcheck.py -> build/lib/django/contrib/gis/geos/prototypes
+
+copying django/contrib/gis/geos/prototypes/geom.py -> build/lib/django/contrib/gis/geos/prototypes
+
+copying django/contrib/gis/geos/prototypes/io.py -> build/lib/django/contrib/gis/geos/prototypes
+
+copying django/contrib/gis/geos/prototypes/misc.py -> build/lib/django/contrib/gis/geos/prototypes
+
+copying django/contrib/gis/geos/prototypes/predicates.py -> build/lib/django/contrib/gis/geos/prototypes
+
+copying django/contrib/gis/geos/prototypes/prepared.py -> build/lib/django/contrib/gis/geos/prototypes
+
+copying django/contrib/gis/geos/prototypes/topology.py -> build/lib/django/contrib/gis/geos/prototypes
+
+creating build/lib/django/contrib/gis/geos/tests
+
+copying django/contrib/gis/geos/tests/__init__.py -> build/lib/django/contrib/gis/geos/tests
+
+copying django/contrib/gis/geos/tests/test_geos.py -> build/lib/django/contrib/gis/geos/tests
+
+copying django/contrib/gis/geos/tests/test_geos_mutation.py -> build/lib/django/contrib/gis/geos/tests
+
+copying django/contrib/gis/geos/tests/test_io.py -> build/lib/django/contrib/gis/geos/tests
+
+copying django/contrib/gis/geos/tests/test_mutable_list.py -> build/lib/django/contrib/gis/geos/tests
+
+creating build/lib/django/contrib/gis/management
+
+copying django/contrib/gis/management/__init__.py -> build/lib/django/contrib/gis/management
+
+copying django/contrib/gis/management/base.py -> build/lib/django/contrib/gis/management
+
+creating build/lib/django/contrib/gis/management/commands
+
+copying django/contrib/gis/management/commands/__init__.py -> build/lib/django/contrib/gis/management/commands
+
+copying django/contrib/gis/management/commands/inspectdb.py -> build/lib/django/contrib/gis/management/commands
+
+copying django/contrib/gis/management/commands/ogrinspect.py -> build/lib/django/contrib/gis/management/commands
+
+creating build/lib/django/contrib/gis/maps
+
+copying django/contrib/gis/maps/__init__.py -> build/lib/django/contrib/gis/maps
+
+creating build/lib/django/contrib/gis/maps/google
+
+copying django/contrib/gis/maps/google/__init__.py -> build/lib/django/contrib/gis/maps/google
+
+copying django/contrib/gis/maps/google/gmap.py -> build/lib/django/contrib/gis/maps/google
+
+copying django/contrib/gis/maps/google/overlays.py -> build/lib/django/contrib/gis/maps/google
+
+copying django/contrib/gis/maps/google/zoom.py -> build/lib/django/contrib/gis/maps/google
+
+creating build/lib/django/contrib/gis/maps/openlayers
+
+copying django/contrib/gis/maps/openlayers/__init__.py -> build/lib/django/contrib/gis/maps/openlayers
+
+creating build/lib/django/contrib/gis/sitemaps
+
+copying django/contrib/gis/sitemaps/__init__.py -> build/lib/django/contrib/gis/sitemaps
+
+copying django/contrib/gis/sitemaps/georss.py -> build/lib/django/contrib/gis/sitemaps
+
+copying django/contrib/gis/sitemaps/kml.py -> build/lib/django/contrib/gis/sitemaps
+
+copying django/contrib/gis/sitemaps/views.py -> build/lib/django/contrib/gis/sitemaps
+
+creating build/lib/django/contrib/gis/tests
+
+copying django/contrib/gis/tests/__init__.py -> build/lib/django/contrib/gis/tests
+
+copying django/contrib/gis/tests/geometries.py -> build/lib/django/contrib/gis/tests
+
+copying django/contrib/gis/tests/test_geoforms.py -> build/lib/django/contrib/gis/tests
+
+copying django/contrib/gis/tests/test_geoip.py -> build/lib/django/contrib/gis/tests
+
+copying django/contrib/gis/tests/test_measure.py -> build/lib/django/contrib/gis/tests
+
+copying django/contrib/gis/tests/test_spatialrefsys.py -> build/lib/django/contrib/gis/tests
+
+copying django/contrib/gis/tests/urls.py -> build/lib/django/contrib/gis/tests
+
+copying django/contrib/gis/tests/utils.py -> build/lib/django/contrib/gis/tests
+
+creating build/lib/django/contrib/gis/tests/distapp
+
+copying django/contrib/gis/tests/distapp/__init__.py -> build/lib/django/contrib/gis/tests/distapp
+
+copying django/contrib/gis/tests/distapp/data.py -> build/lib/django/contrib/gis/tests/distapp
+
+copying django/contrib/gis/tests/distapp/models.py -> build/lib/django/contrib/gis/tests/distapp
+
+copying django/contrib/gis/tests/distapp/tests.py -> build/lib/django/contrib/gis/tests/distapp
+
+creating build/lib/django/contrib/gis/tests/geoapp
+
+copying django/contrib/gis/tests/geoapp/__init__.py -> build/lib/django/contrib/gis/tests/geoapp
+
+copying django/contrib/gis/tests/geoapp/feeds.py -> build/lib/django/contrib/gis/tests/geoapp
+
+copying django/contrib/gis/tests/geoapp/models.py -> build/lib/django/contrib/gis/tests/geoapp
+
+copying django/contrib/gis/tests/geoapp/sitemaps.py -> build/lib/django/contrib/gis/tests/geoapp
+
+copying django/contrib/gis/tests/geoapp/test_feeds.py -> build/lib/django/contrib/gis/tests/geoapp
+
+copying django/contrib/gis/tests/geoapp/test_regress.py -> build/lib/django/contrib/gis/tests/geoapp
+
+copying django/contrib/gis/tests/geoapp/test_sitemaps.py -> build/lib/django/contrib/gis/tests/geoapp
+
+copying django/contrib/gis/tests/geoapp/tests.py -> build/lib/django/contrib/gis/tests/geoapp
+
+copying django/contrib/gis/tests/geoapp/tests_mysql.py -> build/lib/django/contrib/gis/tests/geoapp
+
+copying django/contrib/gis/tests/geoapp/urls.py -> build/lib/django/contrib/gis/tests/geoapp
+
+creating build/lib/django/contrib/gis/tests/layermap
+
+copying django/contrib/gis/tests/layermap/__init__.py -> build/lib/django/contrib/gis/tests/layermap
+
+copying django/contrib/gis/tests/layermap/models.py -> build/lib/django/contrib/gis/tests/layermap
+
+copying django/contrib/gis/tests/layermap/tests.py -> build/lib/django/contrib/gis/tests/layermap
+
+copying django/contrib/gis/tests/layermap/tests_mysql.py -> build/lib/django/contrib/gis/tests/layermap
+
+creating build/lib/django/contrib/gis/tests/relatedapp
+
+copying django/contrib/gis/tests/relatedapp/__init__.py -> build/lib/django/contrib/gis/tests/relatedapp
+
+copying django/contrib/gis/tests/relatedapp/models.py -> build/lib/django/contrib/gis/tests/relatedapp
+
+copying django/contrib/gis/tests/relatedapp/tests.py -> build/lib/django/contrib/gis/tests/relatedapp
+
+copying django/contrib/gis/tests/relatedapp/tests_mysql.py -> build/lib/django/contrib/gis/tests/relatedapp
+
+creating build/lib/django/contrib/gis/utils
+
+copying django/contrib/gis/utils/__init__.py -> build/lib/django/contrib/gis/utils
+
+copying django/contrib/gis/utils/geoip.py -> build/lib/django/contrib/gis/utils
+
+copying django/contrib/gis/utils/layermapping.py -> build/lib/django/contrib/gis/utils
+
+copying django/contrib/gis/utils/ogrinfo.py -> build/lib/django/contrib/gis/utils
+
+copying django/contrib/gis/utils/ogrinspect.py -> build/lib/django/contrib/gis/utils
+
+copying django/contrib/gis/utils/srs.py -> build/lib/django/contrib/gis/utils
+
+copying django/contrib/gis/utils/wkt.py -> build/lib/django/contrib/gis/utils
+
+creating build/lib/django/contrib/humanize
+
+copying django/contrib/humanize/__init__.py -> build/lib/django/contrib/humanize
+
+creating build/lib/django/contrib/humanize/templatetags
+
+copying django/contrib/humanize/templatetags/__init__.py -> build/lib/django/contrib/humanize/templatetags
+
+copying django/contrib/humanize/templatetags/humanize.py -> build/lib/django/contrib/humanize/templatetags
+
+creating build/lib/django/contrib/localflavor
+
+copying django/contrib/localflavor/__init__.py -> build/lib/django/contrib/localflavor
+
+creating build/lib/django/contrib/localflavor/ar
+
+copying django/contrib/localflavor/ar/__init__.py -> build/lib/django/contrib/localflavor/ar
+
+copying django/contrib/localflavor/ar/ar_provinces.py -> build/lib/django/contrib/localflavor/ar
+
+copying django/contrib/localflavor/ar/forms.py -> build/lib/django/contrib/localflavor/ar
+
+creating build/lib/django/contrib/localflavor/at
+
+copying django/contrib/localflavor/at/__init__.py -> build/lib/django/contrib/localflavor/at
+
+copying django/contrib/localflavor/at/at_states.py -> build/lib/django/contrib/localflavor/at
+
+copying django/contrib/localflavor/at/forms.py -> build/lib/django/contrib/localflavor/at
+
+creating build/lib/django/contrib/localflavor/au
+
+copying django/contrib/localflavor/au/__init__.py -> build/lib/django/contrib/localflavor/au
+
+copying django/contrib/localflavor/au/au_states.py -> build/lib/django/contrib/localflavor/au
+
+copying django/contrib/localflavor/au/forms.py -> build/lib/django/contrib/localflavor/au
+
+creating build/lib/django/contrib/localflavor/br
+
+copying django/contrib/localflavor/br/__init__.py -> build/lib/django/contrib/localflavor/br
+
+copying django/contrib/localflavor/br/br_states.py -> build/lib/django/contrib/localflavor/br
+
+copying django/contrib/localflavor/br/forms.py -> build/lib/django/contrib/localflavor/br
+
+creating build/lib/django/contrib/localflavor/ca
+
+copying django/contrib/localflavor/ca/__init__.py -> build/lib/django/contrib/localflavor/ca
+
+copying django/contrib/localflavor/ca/ca_provinces.py -> build/lib/django/contrib/localflavor/ca
+
+copying django/contrib/localflavor/ca/forms.py -> build/lib/django/contrib/localflavor/ca
+
+creating build/lib/django/contrib/localflavor/ch
+
+copying django/contrib/localflavor/ch/__init__.py -> build/lib/django/contrib/localflavor/ch
+
+copying django/contrib/localflavor/ch/ch_states.py -> build/lib/django/contrib/localflavor/ch
+
+copying django/contrib/localflavor/ch/forms.py -> build/lib/django/contrib/localflavor/ch
+
+creating build/lib/django/contrib/localflavor/cl
+
+copying django/contrib/localflavor/cl/__init__.py -> build/lib/django/contrib/localflavor/cl
+
+copying django/contrib/localflavor/cl/cl_regions.py -> build/lib/django/contrib/localflavor/cl
+
+copying django/contrib/localflavor/cl/forms.py -> build/lib/django/contrib/localflavor/cl
+
+creating build/lib/django/contrib/localflavor/cz
+
+copying django/contrib/localflavor/cz/__init__.py -> build/lib/django/contrib/localflavor/cz
+
+copying django/contrib/localflavor/cz/cz_regions.py -> build/lib/django/contrib/localflavor/cz
+
+copying django/contrib/localflavor/cz/forms.py -> build/lib/django/contrib/localflavor/cz
+
+creating build/lib/django/contrib/localflavor/de
+
+copying django/contrib/localflavor/de/__init__.py -> build/lib/django/contrib/localflavor/de
+
+copying django/contrib/localflavor/de/de_states.py -> build/lib/django/contrib/localflavor/de
+
+copying django/contrib/localflavor/de/forms.py -> build/lib/django/contrib/localflavor/de
+
+creating build/lib/django/contrib/localflavor/es
+
+copying django/contrib/localflavor/es/__init__.py -> build/lib/django/contrib/localflavor/es
+
+copying django/contrib/localflavor/es/es_provinces.py -> build/lib/django/contrib/localflavor/es
+
+copying django/contrib/localflavor/es/es_regions.py -> build/lib/django/contrib/localflavor/es
+
+copying django/contrib/localflavor/es/forms.py -> build/lib/django/contrib/localflavor/es
+
+creating build/lib/django/contrib/localflavor/fi
+
+copying django/contrib/localflavor/fi/__init__.py -> build/lib/django/contrib/localflavor/fi
+
+copying django/contrib/localflavor/fi/fi_municipalities.py -> build/lib/django/contrib/localflavor/fi
+
+copying django/contrib/localflavor/fi/forms.py -> build/lib/django/contrib/localflavor/fi
+
+creating build/lib/django/contrib/localflavor/fr
+
+copying django/contrib/localflavor/fr/__init__.py -> build/lib/django/contrib/localflavor/fr
+
+copying django/contrib/localflavor/fr/forms.py -> build/lib/django/contrib/localflavor/fr
+
+copying django/contrib/localflavor/fr/fr_department.py -> build/lib/django/contrib/localflavor/fr
+
+creating build/lib/django/contrib/localflavor/generic
+
+copying django/contrib/localflavor/generic/__init__.py -> build/lib/django/contrib/localflavor/generic
+
+copying django/contrib/localflavor/generic/forms.py -> build/lib/django/contrib/localflavor/generic
+
+creating build/lib/django/contrib/localflavor/in_
+
+copying django/contrib/localflavor/in_/__init__.py -> build/lib/django/contrib/localflavor/in_
+
+copying django/contrib/localflavor/in_/forms.py -> build/lib/django/contrib/localflavor/in_
+
+copying django/contrib/localflavor/in_/in_states.py -> build/lib/django/contrib/localflavor/in_
+
+creating build/lib/django/contrib/localflavor/is_
+
+copying django/contrib/localflavor/is_/__init__.py -> build/lib/django/contrib/localflavor/is_
+
+copying django/contrib/localflavor/is_/forms.py -> build/lib/django/contrib/localflavor/is_
+
+copying django/contrib/localflavor/is_/is_postalcodes.py -> build/lib/django/contrib/localflavor/is_
+
+creating build/lib/django/contrib/localflavor/it
+
+copying django/contrib/localflavor/it/__init__.py -> build/lib/django/contrib/localflavor/it
+
+copying django/contrib/localflavor/it/forms.py -> build/lib/django/contrib/localflavor/it
+
+copying django/contrib/localflavor/it/it_province.py -> build/lib/django/contrib/localflavor/it
+
+copying django/contrib/localflavor/it/it_region.py -> build/lib/django/contrib/localflavor/it
+
+copying django/contrib/localflavor/it/util.py -> build/lib/django/contrib/localflavor/it
+
+creating build/lib/django/contrib/localflavor/jp
+
+copying django/contrib/localflavor/jp/__init__.py -> build/lib/django/contrib/localflavor/jp
+
+copying django/contrib/localflavor/jp/forms.py -> build/lib/django/contrib/localflavor/jp
+
+copying django/contrib/localflavor/jp/jp_prefectures.py -> build/lib/django/contrib/localflavor/jp
+
+creating build/lib/django/contrib/localflavor/mx
+
+copying django/contrib/localflavor/mx/__init__.py -> build/lib/django/contrib/localflavor/mx
+
+copying django/contrib/localflavor/mx/forms.py -> build/lib/django/contrib/localflavor/mx
+
+copying django/contrib/localflavor/mx/mx_states.py -> build/lib/django/contrib/localflavor/mx
+
+creating build/lib/django/contrib/localflavor/nl
+
+copying django/contrib/localflavor/nl/__init__.py -> build/lib/django/contrib/localflavor/nl
+
+copying django/contrib/localflavor/nl/forms.py -> build/lib/django/contrib/localflavor/nl
+
+copying django/contrib/localflavor/nl/nl_provinces.py -> build/lib/django/contrib/localflavor/nl
+
+creating build/lib/django/contrib/localflavor/no
+
+copying django/contrib/localflavor/no/__init__.py -> build/lib/django/contrib/localflavor/no
+
+copying django/contrib/localflavor/no/forms.py -> build/lib/django/contrib/localflavor/no
+
+copying django/contrib/localflavor/no/no_municipalities.py -> build/lib/django/contrib/localflavor/no
+
+creating build/lib/django/contrib/localflavor/pe
+
+copying django/contrib/localflavor/pe/__init__.py -> build/lib/django/contrib/localflavor/pe
+
+copying django/contrib/localflavor/pe/forms.py -> build/lib/django/contrib/localflavor/pe
+
+copying django/contrib/localflavor/pe/pe_region.py -> build/lib/django/contrib/localflavor/pe
+
+creating build/lib/django/contrib/localflavor/pl
+
+copying django/contrib/localflavor/pl/__init__.py -> build/lib/django/contrib/localflavor/pl
+
+copying django/contrib/localflavor/pl/forms.py -> build/lib/django/contrib/localflavor/pl
+
+copying django/contrib/localflavor/pl/pl_administrativeunits.py -> build/lib/django/contrib/localflavor/pl
+
+copying django/contrib/localflavor/pl/pl_voivodeships.py -> build/lib/django/contrib/localflavor/pl
+
+creating build/lib/django/contrib/localflavor/ro
+
+copying django/contrib/localflavor/ro/__init__.py -> build/lib/django/contrib/localflavor/ro
+
+copying django/contrib/localflavor/ro/forms.py -> build/lib/django/contrib/localflavor/ro
+
+copying django/contrib/localflavor/ro/ro_counties.py -> build/lib/django/contrib/localflavor/ro
+
+creating build/lib/django/contrib/localflavor/sk
+
+copying django/contrib/localflavor/sk/__init__.py -> build/lib/django/contrib/localflavor/sk
+
+copying django/contrib/localflavor/sk/forms.py -> build/lib/django/contrib/localflavor/sk
+
+copying django/contrib/localflavor/sk/sk_districts.py -> build/lib/django/contrib/localflavor/sk
+
+copying django/contrib/localflavor/sk/sk_regions.py -> build/lib/django/contrib/localflavor/sk
+
+creating build/lib/django/contrib/localflavor/uk
+
+copying django/contrib/localflavor/uk/__init__.py -> build/lib/django/contrib/localflavor/uk
+
+copying django/contrib/localflavor/uk/forms.py -> build/lib/django/contrib/localflavor/uk
+
+copying django/contrib/localflavor/uk/uk_regions.py -> build/lib/django/contrib/localflavor/uk
+
+creating build/lib/django/contrib/localflavor/us
+
+copying django/contrib/localflavor/us/__init__.py -> build/lib/django/contrib/localflavor/us
+
+copying django/contrib/localflavor/us/forms.py -> build/lib/django/contrib/localflavor/us
+
+copying django/contrib/localflavor/us/models.py -> build/lib/django/contrib/localflavor/us
+
+copying django/contrib/localflavor/us/us_states.py -> build/lib/django/contrib/localflavor/us
+
+creating build/lib/django/contrib/localflavor/za
+
+copying django/contrib/localflavor/za/__init__.py -> build/lib/django/contrib/localflavor/za
+
+copying django/contrib/localflavor/za/forms.py -> build/lib/django/contrib/localflavor/za
+
+copying django/contrib/localflavor/za/za_provinces.py -> build/lib/django/contrib/localflavor/za
+
+creating build/lib/django/contrib/markup
+
+copying django/contrib/markup/__init__.py -> build/lib/django/contrib/markup
+
+copying django/contrib/markup/models.py -> build/lib/django/contrib/markup
+
+copying django/contrib/markup/tests.py -> build/lib/django/contrib/markup
+
+creating build/lib/django/contrib/markup/templatetags
+
+copying django/contrib/markup/templatetags/__init__.py -> build/lib/django/contrib/markup/templatetags
+
+copying django/contrib/markup/templatetags/markup.py -> build/lib/django/contrib/markup/templatetags
+
+creating build/lib/django/contrib/redirects
+
+copying django/contrib/redirects/__init__.py -> build/lib/django/contrib/redirects
+
+copying django/contrib/redirects/admin.py -> build/lib/django/contrib/redirects
+
+copying django/contrib/redirects/middleware.py -> build/lib/django/contrib/redirects
+
+copying django/contrib/redirects/models.py -> build/lib/django/contrib/redirects
+
+creating build/lib/django/contrib/sessions
+
+copying django/contrib/sessions/__init__.py -> build/lib/django/contrib/sessions
+
+copying django/contrib/sessions/middleware.py -> build/lib/django/contrib/sessions
+
+copying django/contrib/sessions/models.py -> build/lib/django/contrib/sessions
+
+copying django/contrib/sessions/tests.py -> build/lib/django/contrib/sessions
+
+creating build/lib/django/contrib/sessions/backends
+
+copying django/contrib/sessions/backends/__init__.py -> build/lib/django/contrib/sessions/backends
+
+copying django/contrib/sessions/backends/base.py -> build/lib/django/contrib/sessions/backends
+
+copying django/contrib/sessions/backends/cache.py -> build/lib/django/contrib/sessions/backends
+
+copying django/contrib/sessions/backends/cached_db.py -> build/lib/django/contrib/sessions/backends
+
+copying django/contrib/sessions/backends/db.py -> build/lib/django/contrib/sessions/backends
+
+copying django/contrib/sessions/backends/file.py -> build/lib/django/contrib/sessions/backends
+
+creating build/lib/django/contrib/sitemaps
+
+copying django/contrib/sitemaps/__init__.py -> build/lib/django/contrib/sitemaps
+
+copying django/contrib/sitemaps/views.py -> build/lib/django/contrib/sitemaps
+
+creating build/lib/django/contrib/sitemaps/management
+
+copying django/contrib/sitemaps/management/__init__.py -> build/lib/django/contrib/sitemaps/management
+
+creating build/lib/django/contrib/sitemaps/management/commands
+
+copying django/contrib/sitemaps/management/commands/__init__.py -> build/lib/django/contrib/sitemaps/management/commands
+
+copying django/contrib/sitemaps/management/commands/ping_google.py -> build/lib/django/contrib/sitemaps/management/commands
+
+creating build/lib/django/contrib/sites
+
+copying django/contrib/sites/__init__.py -> build/lib/django/contrib/sites
+
+copying django/contrib/sites/admin.py -> build/lib/django/contrib/sites
+
+copying django/contrib/sites/management.py -> build/lib/django/contrib/sites
+
+copying django/contrib/sites/managers.py -> build/lib/django/contrib/sites
+
+copying django/contrib/sites/models.py -> build/lib/django/contrib/sites
+
+copying django/contrib/sites/tests.py -> build/lib/django/contrib/sites
+
+creating build/lib/django/contrib/syndication
+
+copying django/contrib/syndication/__init__.py -> build/lib/django/contrib/syndication
+
+copying django/contrib/syndication/feeds.py -> build/lib/django/contrib/syndication
+
+copying django/contrib/syndication/views.py -> build/lib/django/contrib/syndication
+
+creating build/lib/django/contrib/webdesign
+
+copying django/contrib/webdesign/__init__.py -> build/lib/django/contrib/webdesign
+
+copying django/contrib/webdesign/lorem_ipsum.py -> build/lib/django/contrib/webdesign
+
+copying django/contrib/webdesign/models.py -> build/lib/django/contrib/webdesign
+
+copying django/contrib/webdesign/tests.py -> build/lib/django/contrib/webdesign
+
+creating build/lib/django/contrib/webdesign/templatetags
+
+copying django/contrib/webdesign/templatetags/__init__.py -> build/lib/django/contrib/webdesign/templatetags
+
+copying django/contrib/webdesign/templatetags/webdesign.py -> build/lib/django/contrib/webdesign/templatetags
+
+creating build/lib/django/core
+
+copying django/core/__init__.py -> build/lib/django/core
+
+copying django/core/context_processors.py -> build/lib/django/core
+
+copying django/core/exceptions.py -> build/lib/django/core
+
+copying django/core/mail.py -> build/lib/django/core
+
+copying django/core/paginator.py -> build/lib/django/core
+
+copying django/core/signals.py -> build/lib/django/core
+
+copying django/core/template_loader.py -> build/lib/django/core
+
+copying django/core/urlresolvers.py -> build/lib/django/core
+
+copying django/core/xheaders.py -> build/lib/django/core
+
+creating build/lib/django/core/cache
+
+copying django/core/cache/__init__.py -> build/lib/django/core/cache
+
+creating build/lib/django/core/cache/backends
+
+copying django/core/cache/backends/__init__.py -> build/lib/django/core/cache/backends
+
+copying django/core/cache/backends/base.py -> build/lib/django/core/cache/backends
+
+copying django/core/cache/backends/db.py -> build/lib/django/core/cache/backends
+
+copying django/core/cache/backends/dummy.py -> build/lib/django/core/cache/backends
+
+copying django/core/cache/backends/filebased.py -> build/lib/django/core/cache/backends
+
+copying django/core/cache/backends/locmem.py -> build/lib/django/core/cache/backends
+
+copying django/core/cache/backends/memcached.py -> build/lib/django/core/cache/backends
+
+creating build/lib/django/core/files
+
+copying django/core/files/__init__.py -> build/lib/django/core/files
+
+copying django/core/files/base.py -> build/lib/django/core/files
+
+copying django/core/files/images.py -> build/lib/django/core/files
+
+copying django/core/files/locks.py -> build/lib/django/core/files
+
+copying django/core/files/move.py -> build/lib/django/core/files
+
+copying django/core/files/storage.py -> build/lib/django/core/files
+
+copying django/core/files/temp.py -> build/lib/django/core/files
+
+copying django/core/files/uploadedfile.py -> build/lib/django/core/files
+
+copying django/core/files/uploadhandler.py -> build/lib/django/core/files
+
+copying django/core/files/utils.py -> build/lib/django/core/files
+
+creating build/lib/django/core/handlers
+
+copying django/core/handlers/__init__.py -> build/lib/django/core/handlers
+
+copying django/core/handlers/base.py -> build/lib/django/core/handlers
+
+copying django/core/handlers/modpython.py -> build/lib/django/core/handlers
+
+copying django/core/handlers/profiler-hotshot.py -> build/lib/django/core/handlers
+
+copying django/core/handlers/wsgi.py -> build/lib/django/core/handlers
+
+creating build/lib/django/core/management
+
+copying django/core/management/__init__.py -> build/lib/django/core/management
+
+copying django/core/management/base.py -> build/lib/django/core/management
+
+copying django/core/management/color.py -> build/lib/django/core/management
+
+copying django/core/management/sql.py -> build/lib/django/core/management
+
+copying django/core/management/validation.py -> build/lib/django/core/management
+
+creating build/lib/django/core/management/commands
+
+copying django/core/management/commands/__init__.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/cleanup.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/compilemessages.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/createcachetable.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/dbshell.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/diffsettings.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/dumpdata.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/flush.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/inspectdb.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/loaddata.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/makemessages.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/reset.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/runfcgi.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/runserver.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/shell.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/sql.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/sqlall.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/sqlclear.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/sqlcustom.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/sqlflush.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/sqlindexes.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/sqlinitialdata.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/sqlreset.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/sqlsequencereset.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/startapp.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/startproject.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/syncdb.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/test.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/testserver.py -> build/lib/django/core/management/commands
+
+copying django/core/management/commands/validate.py -> build/lib/django/core/management/commands
+
+creating build/lib/django/core/serializers
+
+copying django/core/serializers/__init__.py -> build/lib/django/core/serializers
+
+copying django/core/serializers/base.py -> build/lib/django/core/serializers
+
+copying django/core/serializers/json.py -> build/lib/django/core/serializers
+
+copying django/core/serializers/python.py -> build/lib/django/core/serializers
+
+copying django/core/serializers/pyyaml.py -> build/lib/django/core/serializers
+
+copying django/core/serializers/xml_serializer.py -> build/lib/django/core/serializers
+
+creating build/lib/django/core/servers
+
+copying django/core/servers/__init__.py -> build/lib/django/core/servers
+
+copying django/core/servers/basehttp.py -> build/lib/django/core/servers
+
+copying django/core/servers/fastcgi.py -> build/lib/django/core/servers
+
+creating build/lib/django/db
+
+copying django/db/__init__.py -> build/lib/django/db
+
+copying django/db/transaction.py -> build/lib/django/db
+
+creating build/lib/django/db/backends
+
+copying django/db/backends/__init__.py -> build/lib/django/db/backends
+
+copying django/db/backends/creation.py -> build/lib/django/db/backends
+
+copying django/db/backends/signals.py -> build/lib/django/db/backends
+
+copying django/db/backends/util.py -> build/lib/django/db/backends
+
+creating build/lib/django/db/backends/dummy
+
+copying django/db/backends/dummy/__init__.py -> build/lib/django/db/backends/dummy
+
+copying django/db/backends/dummy/base.py -> build/lib/django/db/backends/dummy
+
+creating build/lib/django/db/backends/mysql
+
+copying django/db/backends/mysql/__init__.py -> build/lib/django/db/backends/mysql
+
+copying django/db/backends/mysql/base.py -> build/lib/django/db/backends/mysql
+
+copying django/db/backends/mysql/client.py -> build/lib/django/db/backends/mysql
+
+copying django/db/backends/mysql/creation.py -> build/lib/django/db/backends/mysql
+
+copying django/db/backends/mysql/introspection.py -> build/lib/django/db/backends/mysql
+
+copying django/db/backends/mysql/validation.py -> build/lib/django/db/backends/mysql
+
+creating build/lib/django/db/backends/oracle
+
+copying django/db/backends/oracle/__init__.py -> build/lib/django/db/backends/oracle
+
+copying django/db/backends/oracle/base.py -> build/lib/django/db/backends/oracle
+
+copying django/db/backends/oracle/client.py -> build/lib/django/db/backends/oracle
+
+copying django/db/backends/oracle/creation.py -> build/lib/django/db/backends/oracle
+
+copying django/db/backends/oracle/introspection.py -> build/lib/django/db/backends/oracle
+
+copying django/db/backends/oracle/query.py -> build/lib/django/db/backends/oracle
+
+creating build/lib/django/db/backends/postgresql
+
+copying django/db/backends/postgresql/__init__.py -> build/lib/django/db/backends/postgresql
+
+copying django/db/backends/postgresql/base.py -> build/lib/django/db/backends/postgresql
+
+copying django/db/backends/postgresql/client.py -> build/lib/django/db/backends/postgresql
+
+copying django/db/backends/postgresql/creation.py -> build/lib/django/db/backends/postgresql
+
+copying django/db/backends/postgresql/introspection.py -> build/lib/django/db/backends/postgresql
+
+copying django/db/backends/postgresql/operations.py -> build/lib/django/db/backends/postgresql
+
+copying django/db/backends/postgresql/version.py -> build/lib/django/db/backends/postgresql
+
+creating build/lib/django/db/backends/postgresql_psycopg2
+
+copying django/db/backends/postgresql_psycopg2/__init__.py -> build/lib/django/db/backends/postgresql_psycopg2
+
+copying django/db/backends/postgresql_psycopg2/base.py -> build/lib/django/db/backends/postgresql_psycopg2
+
+copying django/db/backends/postgresql_psycopg2/introspection.py -> build/lib/django/db/backends/postgresql_psycopg2
+
+creating build/lib/django/db/backends/sqlite3
+
+copying django/db/backends/sqlite3/__init__.py -> build/lib/django/db/backends/sqlite3
+
+copying django/db/backends/sqlite3/base.py -> build/lib/django/db/backends/sqlite3
+
+copying django/db/backends/sqlite3/client.py -> build/lib/django/db/backends/sqlite3
+
+copying django/db/backends/sqlite3/creation.py -> build/lib/django/db/backends/sqlite3
+
+copying django/db/backends/sqlite3/introspection.py -> build/lib/django/db/backends/sqlite3
+
+creating build/lib/django/db/models
+
+copying django/db/models/__init__.py -> build/lib/django/db/models
+
+copying django/db/models/aggregates.py -> build/lib/django/db/models
+
+copying django/db/models/base.py -> build/lib/django/db/models
+
+copying django/db/models/expressions.py -> build/lib/django/db/models
+
+copying django/db/models/loading.py -> build/lib/django/db/models
+
+copying django/db/models/manager.py -> build/lib/django/db/models
+
+copying django/db/models/options.py -> build/lib/django/db/models
+
+copying django/db/models/query.py -> build/lib/django/db/models
+
+copying django/db/models/query_utils.py -> build/lib/django/db/models
+
+copying django/db/models/related.py -> build/lib/django/db/models
+
+copying django/db/models/signals.py -> build/lib/django/db/models
+
+creating build/lib/django/db/models/fields
+
+copying django/db/models/fields/__init__.py -> build/lib/django/db/models/fields
+
+copying django/db/models/fields/files.py -> build/lib/django/db/models/fields
+
+copying django/db/models/fields/proxy.py -> build/lib/django/db/models/fields
+
+copying django/db/models/fields/related.py -> build/lib/django/db/models/fields
+
+copying django/db/models/fields/subclassing.py -> build/lib/django/db/models/fields
+
+creating build/lib/django/db/models/sql
+
+copying django/db/models/sql/__init__.py -> build/lib/django/db/models/sql
+
+copying django/db/models/sql/aggregates.py -> build/lib/django/db/models/sql
+
+copying django/db/models/sql/constants.py -> build/lib/django/db/models/sql
+
+copying django/db/models/sql/datastructures.py -> build/lib/django/db/models/sql
+
+copying django/db/models/sql/expressions.py -> build/lib/django/db/models/sql
+
+copying django/db/models/sql/query.py -> build/lib/django/db/models/sql
+
+copying django/db/models/sql/subqueries.py -> build/lib/django/db/models/sql
+
+copying django/db/models/sql/where.py -> build/lib/django/db/models/sql
+
+creating build/lib/django/dispatch
+
+copying django/dispatch/__init__.py -> build/lib/django/dispatch
+
+copying django/dispatch/dispatcher.py -> build/lib/django/dispatch
+
+copying django/dispatch/saferef.py -> build/lib/django/dispatch
+
+creating build/lib/django/forms
+
+copying django/forms/__init__.py -> build/lib/django/forms
+
+copying django/forms/fields.py -> build/lib/django/forms
+
+copying django/forms/forms.py -> build/lib/django/forms
+
+copying django/forms/formsets.py -> build/lib/django/forms
+
+copying django/forms/models.py -> build/lib/django/forms
+
+copying django/forms/util.py -> build/lib/django/forms
+
+copying django/forms/widgets.py -> build/lib/django/forms
+
+creating build/lib/django/forms/extras
+
+copying django/forms/extras/__init__.py -> build/lib/django/forms/extras
+
+copying django/forms/extras/widgets.py -> build/lib/django/forms/extras
+
+creating build/lib/django/http
+
+copying django/http/__init__.py -> build/lib/django/http
+
+copying django/http/multipartparser.py -> build/lib/django/http
+
+copying django/http/utils.py -> build/lib/django/http
+
+creating build/lib/django/middleware
+
+copying django/middleware/__init__.py -> build/lib/django/middleware
+
+copying django/middleware/cache.py -> build/lib/django/middleware
+
+copying django/middleware/common.py -> build/lib/django/middleware
+
+copying django/middleware/doc.py -> build/lib/django/middleware
+
+copying django/middleware/gzip.py -> build/lib/django/middleware
+
+copying django/middleware/http.py -> build/lib/django/middleware
+
+copying django/middleware/locale.py -> build/lib/django/middleware
+
+copying django/middleware/transaction.py -> build/lib/django/middleware
+
+creating build/lib/django/shortcuts
+
+copying django/shortcuts/__init__.py -> build/lib/django/shortcuts
+
+creating build/lib/django/template
+
+copying django/template/__init__.py -> build/lib/django/template
+
+copying django/template/context.py -> build/lib/django/template
+
+copying django/template/debug.py -> build/lib/django/template
+
+copying django/template/defaultfilters.py -> build/lib/django/template
+
+copying django/template/defaulttags.py -> build/lib/django/template
+
+copying django/template/loader.py -> build/lib/django/template
+
+copying django/template/loader_tags.py -> build/lib/django/template
+
+creating build/lib/django/template/loaders
+
+copying django/template/loaders/__init__.py -> build/lib/django/template/loaders
+
+copying django/template/loaders/app_directories.py -> build/lib/django/template/loaders
+
+copying django/template/loaders/eggs.py -> build/lib/django/template/loaders
+
+copying django/template/loaders/filesystem.py -> build/lib/django/template/loaders
+
+creating build/lib/django/templatetags
+
+copying django/templatetags/__init__.py -> build/lib/django/templatetags
+
+copying django/templatetags/cache.py -> build/lib/django/templatetags
+
+copying django/templatetags/i18n.py -> build/lib/django/templatetags
+
+creating build/lib/django/test
+
+copying django/test/__init__.py -> build/lib/django/test
+
+copying django/test/_doctest.py -> build/lib/django/test
+
+copying django/test/client.py -> build/lib/django/test
+
+copying django/test/signals.py -> build/lib/django/test
+
+copying django/test/simple.py -> build/lib/django/test
+
+copying django/test/testcases.py -> build/lib/django/test
+
+copying django/test/utils.py -> build/lib/django/test
+
+creating build/lib/django/utils
+
+copying django/utils/__init__.py -> build/lib/django/utils
+
+copying django/utils/_decimal.py -> build/lib/django/utils
+
+copying django/utils/_os.py -> build/lib/django/utils
+
+copying django/utils/_threading_local.py -> build/lib/django/utils
+
+copying django/utils/autoreload.py -> build/lib/django/utils
+
+copying django/utils/cache.py -> build/lib/django/utils
+
+copying django/utils/checksums.py -> build/lib/django/utils
+
+copying django/utils/daemonize.py -> build/lib/django/utils
+
+copying django/utils/datastructures.py -> build/lib/django/utils
+
+copying django/utils/dateformat.py -> build/lib/django/utils
+
+copying django/utils/dates.py -> build/lib/django/utils
+
+copying django/utils/datetime_safe.py -> build/lib/django/utils
+
+copying django/utils/decorators.py -> build/lib/django/utils
+
+copying django/utils/encoding.py -> build/lib/django/utils
+
+copying django/utils/feedgenerator.py -> build/lib/django/utils
+
+copying django/utils/functional.py -> build/lib/django/utils
+
+copying django/utils/hashcompat.py -> build/lib/django/utils
+
+copying django/utils/html.py -> build/lib/django/utils
+
+copying django/utils/http.py -> build/lib/django/utils
+
+copying django/utils/importlib.py -> build/lib/django/utils
+
+copying django/utils/itercompat.py -> build/lib/django/utils
+
+copying django/utils/regex_helper.py -> build/lib/django/utils
+
+copying django/utils/safestring.py -> build/lib/django/utils
+
+copying django/utils/stopwords.py -> build/lib/django/utils
+
+copying django/utils/synch.py -> build/lib/django/utils
+
+copying django/utils/termcolors.py -> build/lib/django/utils
+
+copying django/utils/text.py -> build/lib/django/utils
+
+copying django/utils/thread_support.py -> build/lib/django/utils
+
+copying django/utils/timesince.py -> build/lib/django/utils
+
+copying django/utils/tree.py -> build/lib/django/utils
+
+copying django/utils/tzinfo.py -> build/lib/django/utils
+
+copying django/utils/version.py -> build/lib/django/utils
+
+copying django/utils/xmlutils.py -> build/lib/django/utils
+
+creating build/lib/django/utils/simplejson
+
+copying django/utils/simplejson/__init__.py -> build/lib/django/utils/simplejson
+
+copying django/utils/simplejson/decoder.py -> build/lib/django/utils/simplejson
+
+copying django/utils/simplejson/encoder.py -> build/lib/django/utils/simplejson
+
+copying django/utils/simplejson/scanner.py -> build/lib/django/utils/simplejson
+
+copying django/utils/simplejson/tool.py -> build/lib/django/utils/simplejson
+
+creating build/lib/django/utils/translation
+
+copying django/utils/translation/__init__.py -> build/lib/django/utils/translation
+
+copying django/utils/translation/trans_null.py -> build/lib/django/utils/translation
+
+copying django/utils/translation/trans_real.py -> build/lib/django/utils/translation
+
+creating build/lib/django/views
+
+copying django/views/__init__.py -> build/lib/django/views
+
+copying django/views/debug.py -> build/lib/django/views
+
+copying django/views/defaults.py -> build/lib/django/views
+
+copying django/views/i18n.py -> build/lib/django/views
+
+copying django/views/static.py -> build/lib/django/views
+
+creating build/lib/django/views/decorators
+
+copying django/views/decorators/__init__.py -> build/lib/django/views/decorators
+
+copying django/views/decorators/cache.py -> build/lib/django/views/decorators
+
+copying django/views/decorators/gzip.py -> build/lib/django/views/decorators
+
+copying django/views/decorators/http.py -> build/lib/django/views/decorators
+
+copying django/views/decorators/vary.py -> build/lib/django/views/decorators
+
+creating build/lib/django/views/generic
+
+copying django/views/generic/__init__.py -> build/lib/django/views/generic
+
+copying django/views/generic/create_update.py -> build/lib/django/views/generic
+
+copying django/views/generic/date_based.py -> build/lib/django/views/generic
+
+copying django/views/generic/list_detail.py -> build/lib/django/views/generic
+
+copying django/views/generic/simple.py -> build/lib/django/views/generic
+
+running build_scripts
+
+creating build/scripts-2.6
+
+copying and adjusting django/bin/django-admin.py -> build/scripts-2.6
+
+changing mode of build/scripts-2.6/django-admin.py from 644 to 755
+
+running install_lib
+
+copying build/lib/django/__init__.py -> /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/django
+
+error: could not delete '/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/django/__init__.py': Permission denied
+
+----------------------------------------
+  Rolling back uninstall of Django
+  Replacing /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/Django-1.0.2_final-py2.6.egg-info
+Command /Library/Frameworks/Python.framework/Versions/2.6/Resources/Python.app/Contents/MacOS/Python -c "import setuptools; __file__='/Users/matth/Projects/D-ACIS/parcelsurvey/build/Django/setup.py'; execfile('/Users/matth/Projects/D-ACIS/parcelsurvey/build/Django/setup.py')" install --single-version-externally-managed --record /var/folders/GZ/GZPEKy8PGHy8vKM+uMFEVk+++TI/-Tmp-/pip-gdVc7G-record/install-record.txt --install-headers /Users/matth/Projects/D-ACIS/parcelsurvey/lib/include failed with error code 1
+Exception information:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/basecommand.py", line 115, in main
+    self.run(options, args)
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/commands/install.py", line 157, in run
+    requirement_set.install(install_options)
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 1165, in install
+    requirement.install(install_options)
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 533, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/__init__.py", line 207, in call_subprocess
+    % (command_desc, proc.returncode))
+InstallationError: Command /Library/Frameworks/Python.framework/Versions/2.6/Resources/Python.app/Contents/MacOS/Python -c "import setuptools; __file__='/Users/matth/Projects/D-ACIS/parcelsurvey/build/Django/setup.py'; execfile('/Users/matth/Projects/D-ACIS/parcelsurvey/build/Django/setup.py')" install --single-version-externally-managed --record /var/folders/GZ/GZPEKy8PGHy8vKM+uMFEVk+++TI/-Tmp-/pip-gdVc7G-record/install-record.txt --install-headers /Users/matth/Projects/D-ACIS/parcelsurvey/lib/include failed with error code 1

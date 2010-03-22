@@ -21,6 +21,8 @@ MANAGERS = ADMINS
 # Note: DATABASE_USER and DATABASE_PASSWORD are defined in the staging and
 # production settings.py files. For local use, either define them in
 # local_settings.py or ignore to use your local user.
+DATABASE_USER = 'parcelsurvey'
+DATABASE_PASSWORD = 'tener'
 DATABASE_ENGINE = 'postgresql_psycopg2'
 DATABASE_HOST = 'localhost'
 DATABASE_PORT = '5432'

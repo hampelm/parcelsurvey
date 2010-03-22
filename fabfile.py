@@ -259,15 +259,15 @@ def create_database(func=run):
     func('echo "CREATE USER %(project_name)s WITH PASSWORD \'%(database_password)s\';" | psql postgres' % env)
     func('createdb -O %(project_name)s %(project_name)s -T template_postgis' % env)
     
-def destroy_database():
+def destroy_database(func=run):
     """
     Destroys the user and database for this project.
     
     Will not cause the fab to fail if they do not exist.
     """
     with settings(warn_only=True):
-        run('dropdb %(project_name)s' % env)
-        run('dropuser %(project_name)s' % env)
+        func('dropdb %(project_name)s' % env)
+        func('dropuser %(project_name)s' % env)
         
 def load_data():
     """
@@ -344,3 +344,11 @@ def _execute_psql(query):
     """
     env.query = query
     run(('cd %(path)s/repository; psql -q %(project_name)s -c "%(query)s"') % env)
+    
+def shiva_local():
+    """
+    Undo any local setup.  This will *destroy* your local database, so use with caution.
+    """        
+    local('dropdb %(project_name)s -U postgres' % env)
+    local('dropuser %(project_name)s -U postgres' % env)
+    

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Did you mean:</h2>
+<ul>
+{% for c in candidates %}
+	<li><a href="/street/{{c.slug}}{%if c.direction %}/{{c.direction}}{% endif %}{% if c.address %}/{{c.address}}/{% endif %}">
+		{% if c.address %}{{c.address}}{% endif %} {%if c.direction %}{{c.direction}}{% endif %} {{c.street}}</a>
+		
+		
+		</li>
+{% endfor %}
+</ul>
+
+{% endblock %}			
+
+			

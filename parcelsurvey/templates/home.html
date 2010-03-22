@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<p>{{ message }}
+
+<form action="/search/" method="get">
+	{{ form }}
+	<input type="submit" value="Search" />
+</form>
+
+
+{% endblock %}			
+
+			
+{% block js %}
+{% endblock %}

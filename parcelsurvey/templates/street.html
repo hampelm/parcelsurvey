@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>{{street}}</h2>
+
+{% for parcel in parcels %}
+	<a href="./{{ parcel.property_address }}">{{parcel.property_address }}</a>
+{% endfor %}
+
+{% endblock %}			
+
+			

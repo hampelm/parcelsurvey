@@ -1,11 +1,51 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>{% block title %}{% endblock %}</title>
-  <link rel="stylesheet" href="/assets/css/reset.css" type="text/css" charset="utf-8"/>
-</head>
-<body>
-{% block content %}{% endblock %}
-</body>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>{{title}} &mdash; Parcel Survey</title>
+		<style type="text/css" media="screen">
+			@import url(/templates/css/base.css);
+			
+			{% block css %}{% endblock %}
+		</style>
+		
+		<script src="/templates/js/mapnik.js" type="text/javascript"></script>
+		
+<!--	Disabling GMaps for now.
+		<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true_or_false&amp;key=ABQIAAAA8E1c1-rPGKc2CBMpfB181RQCULP4XOMyhPd8d_NrQQEO8sT8XBRf1rJ17f4tMfExvM9_vY718ffevg" type="text/javascript"></script>
+-->
+	  	
+	    <!-- bring in the OpenLayers javascript library
+	         (here we bring it from the remote site, but you could
+	         easily serve up this javascript yourself) -->
+	    <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+
+	    <!-- bring in the OpenStreetMap OpenLayers layers.
+	         Using this hosted file will make sure we are kept up
+	         to date with any necessary changes -->
+	    <script src="http://www.openstreetmap.org/openlayers/OpenStreetMap.js"></script>
+	
+	
+		<script type="text/javascript">{% block js %}{% endblock %}</script>
+		
+	</head>
+	<body onload="load()" onunload="GUnload()"> 
+			
+		<div id="page">		
+			<div id="header">
+				<h1><a href="/">Parcel Survey</a></h1> 
+			</div>
+			
+			<div id="nav">
+				{% block nav %}{% endblock %}
+			</div>
+			
+			<div id="container">	
+						
+				{% block content %}
+				{% endblock %}
+			</div>
+			<div style="clear:both"></div>
+		</div>
+	</body>
 </html>

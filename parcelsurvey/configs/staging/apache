@@ -1,6 +1,6 @@
 <VirtualHost *:80>
-    ServerName parcelsurvey.beta.example.com
-    ServerAlias www.parcelsurvey.beta.example.com
+    ServerName ec2-184-73-61-62.compute-1.amazonaws.com
+    ServerAlias ec2-184-73-61-62.compute-1.amazonaws.com
 
     WSGIScriptAlias / /home/newsapps/sites/parcelsurvey/repository/parcelsurvey/configs/staging/staging.wsgi
     

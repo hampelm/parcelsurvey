@@ -36,9 +36,9 @@ def staging():
     Work on staging environment
     """
     env.settings = 'staging'
-    env.hosts = ['db.beta.example.com'] 
+    env.hosts = ['ec2-184-73-61-62.compute-1.amazonaws.com'] 
     env.user = 'newsapps'
-    env.s3_bucket = 'media.beta.example.com'
+    env.s3_bucket = 'd3-test-1'
     
 """
 Branches

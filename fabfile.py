@@ -79,7 +79,7 @@ def setup():
     checkout_latest()
     destroy_database()
     create_database()
-    load_data()
+#    load_data()
     install_requirements()
     install_apache_conf()
     deploy_requirements_to_s3()
@@ -105,7 +105,7 @@ def clone_repo():
     """
     Do initial clone of the git repository.
     """
-    run('git clone %(repository_url)s %(repo_path)s' % env)
+    run('echo "yes" | git clone %(repository_url)s %(repo_path)s' % env)
 
 def checkout_latest():
     """

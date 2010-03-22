@@ -1,0 +1,2 @@
+#!/bin/sh
+python ./parcelsurvey/configs/${DEPLOYMENT_TARGET:="common"}/manage.py $*

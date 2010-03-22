@@ -1,0 +1,40 @@
+<VirtualHost *:80>
+    ServerName parcelsurvey.example.com
+    ServerAlias www.parcelsurvey.example.com
+    
+    SetEnvIf X-Forwarded-For "^163\.192\..*\..*" trib
+    <Location /> # until launch
+          Order Deny,Allow
+          Allow from all
+          # Allow from env=trib
+    </Location>
+
+    WSGIScriptAlias / /home/newsapps/sites/parcelsurvey/repository/parcelsurvey/configs/production/production.wsgi
+    <Directory /home/newsapps/sites/parcelsurvey/repository/parcelsurvey>
+        Order deny,allow
+        Allow from all
+    </Directory>
+    
+    Redirect permanent /favicon.ico http://media.example.com/parcelsurvey/na_media/favicon.ico
+    
+    Alias /robots.txt /home/newsapps/sites/parcelsurvey/repository/parcelsurvey/assets/robots.txt
+
+    ErrorLog /home/newsapps/logs/parcelsurvey.error.log
+    LogLevel warn
+
+    SetEnvIf X-Forwarded-For "^.*\..*\..*\..*" is-forwarder
+    LogFormat "%{X-Forwarded-For}i %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\" %I %O" combinedio
+    LogFormat "[%h] %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\" %I %O" combinedio2
+    CustomLog /home/newsapps/logs/parcelsurvey.access.log combinedio env=is-forwarder
+    CustomLog /home/newsapps/logs/parcelsurvey.access.log combinedio2 env=!is-forwarder
+
+    ServerSignature Off
+    
+    RewriteEngine on
+    # canonical hostname
+    RewriteCond %{HTTP_HOST} !^parcelsurvey.example.com [NC] 
+    RewriteRule ^/(.*)  http://parcelsurvey.example.com/$1 [L,R]
+    
+    RewriteCond %{REQUEST_URI} /maintenance.html$ 
+    RewriteRule $ / [R=302,L]
+</VirtualHost>

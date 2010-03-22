@@ -219,6 +219,16 @@ def git_reset(commit_id):
 """
 Commands - data
 """
+
+#export_local_data():
+"""
+TODO
+Exports the local database.
+"""
+#    func('echo "CREATE USER %(project_name)s WITH PASSWORD \'%(database_password)s\';" | psql -U postgres' % env)
+    
+
+
 def load_new_data():
     """
     Erase the current database and load new data from the SQL dump file.
@@ -233,12 +243,21 @@ def load_new_data():
     pgpool_up()
     maintenance_down()
     
-def create_database():
+    
+def create_local_database(func=run):
+    """
+    Creates the LOCAL user and database for this project.
+    """
+    func('echo "CREATE USER %(project_name)s WITH PASSWORD \'%(database_password)s\';" | psql -U postgres' % env)
+    func('createdb -U postgres -O %(project_name)s %(project_name)s -T template_postgis' % env)
+    
+    
+def create_database(func=run):
     """
     Creates the user and database for this project.
     """
-    run('echo "CREATE USER %(project_name)s WITH PASSWORD \'%(database_password)s\';" | psql postgres' % env)
-    run('createdb -O %(project_name)s %(project_name)s -T template_postgis' % env)
+    func('echo "CREATE USER %(project_name)s WITH PASSWORD \'%(database_password)s\';" | psql postgres' % env)
+    func('createdb -O %(project_name)s %(project_name)s -T template_postgis' % env)
     
 def destroy_database():
     """
@@ -306,6 +325,19 @@ def shiva_the_destroyer():
 """
 Utility functions (not to be called directly)
 """
+
+def bootstrap():
+    """
+    Local development bootstrap: you should only run this once.
+    """    
+    
+    create_local_database(local)
+   # run('echo "GRANT ALL ON geometry_columns TO  %(project_name)s;" | psql -U postgres -d %(project_name)s' % env) # added
+  #  run('echo "GRANT ALL ON geometry_columns TO  %(project_name)s;" | psql -U postgres -d %(project_name)s' % env) # added
+    
+    local("sh ./manage syncdb --noinput")
+  #  local("sh ./manage load_shapefiles")
+
 def _execute_psql(query):
     """
     Executes a PostgreSQL command using the command line interface.

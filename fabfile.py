@@ -36,7 +36,7 @@ def staging():
     Work on staging environment
     """
     env.settings = 'staging'
-    env.hosts = ['ec2-174-129-159-120.compute-1.amazonaws.com'] 
+    env.hosts = ['ec2-174-129-189-67.compute-1.amazonaws.com'] 
     env.user = 'newsapps'
     env.s3_bucket = 'd3-test-1'
     
@@ -180,6 +180,7 @@ def reboot():
     Restart the Apache2 server.
     """
     sudo('/mnt/apps/bin/restart-all-apache.sh')
+#    sudo('/usr/local/bin/restart-all-apache.sh')
     
 def maintenance_down():
     """

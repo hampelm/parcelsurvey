@@ -1,6 +1,6 @@
 <VirtualHost *:80>
-    ServerName ec2-174-129-159-120.compute-1.amazonaws.com
-    ServerAlias ec2-174-129-159-120.compute-1.amazonaws.com
+    ServerName foo.example.com
+    ServerAlias ec2-174-129-189-67.compute-1.amazonaws.com
 
     WSGIScriptAlias / /home/newsapps/sites/parcelsurvey/repository/parcelsurvey/configs/staging/staging.wsgi
     
